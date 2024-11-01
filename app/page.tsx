@@ -75,7 +75,7 @@ export default function Home() {
             <iframe 
               width="100%" 
               height="230"
-              className="rounded-xl shadow-2xl"
+              className="rounded-xl shadow-2xl lg:w-[100%] lg:h-[700px]"
               src="https://youtu.be/aZG5Op2yuA8?si=wL62zukusq9y9z3R" 
               title="YouTube video player" 
               style={{ border: "none" }} 
