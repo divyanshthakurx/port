@@ -48,6 +48,10 @@ body {
   opacity: 0; /* Hide foreground image on hover to reveal the background */
 }
 
+.custom-swiper {
+  --swiper-pagination-color: #ffffff;
+}
+
 @keyframes wave {
   0% {
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);

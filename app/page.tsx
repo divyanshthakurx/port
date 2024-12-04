@@ -11,6 +11,19 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
+type CustomCSSProperties = React.CSSProperties & {
+  [key: `--${string}`]: string | number;
+};
+
+const swiperCustomStyles: CustomCSSProperties = {
+  "--swiper-pagination-color": "#ffffff",
+  "--swiper-pagination-bullet-inactive-color": "#999999",
+  "--swiper-pagination-bullet-inactive-opacity": "1",
+  "--swiper-pagination-bullet-size": "16px",
+  "--swiper-pagination-bullet-horizontal-gap": "6px",
+  "--swiper-pagination-bottom": "0px",
+};
+
   export default function Home() {
     
 
@@ -57,14 +70,7 @@ import 'swiper/css/scrollbar';
                 </div>
                 <div>
                   <Swiper className='xl:w-[28vw]'
-                    style={{
-                      "--swiper-pagination-color": "#ffffff",
-                      "--swiper-pagination-bullet-inactive-color": "#999999",
-                      "--swiper-pagination-bullet-inactive-opacity": "1",
-                      "--swiper-pagination-bullet-size": "16px",
-                      "--swiper-pagination-bullet-horizontal-gap": "6px",
-                      "--swiper-pagination-bottom": "0px",
-                    }}
+                     style={swiperCustomStyles}
                     loop={true}
                     modules={[Pagination, A11y, EffectCoverflow]}
                     spaceBetween={0}
@@ -378,14 +384,7 @@ import 'swiper/css/scrollbar';
             </div>
           </div>
           <Swiper
-            style={{
-              "--swiper-pagination-color": "#AA1F18",
-              "--swiper-pagination-bullet-inactive-color": "#999999",
-              "--swiper-pagination-bullet-inactive-opacity": "1",
-              "--swiper-pagination-bullet-size": "16px",
-              "--swiper-pagination-bullet-horizontal-gap": "6px",
-              "--swiper-pagination-bottom": "0px",
-            }}
+             style={swiperCustomStyles}
             loop={true}
             modules={[Pagination, A11y, EffectCoverflow]}
             spaceBetween={0}
@@ -593,14 +592,7 @@ import 'swiper/css/scrollbar';
                   </ul>
                 </div>
           <Swiper
-            style={{
-              "--swiper-pagination-color": "#AA1F18",
-              "--swiper-pagination-bullet-inactive-color": "#999999",
-              "--swiper-pagination-bullet-inactive-opacity": "1",
-              "--swiper-pagination-bullet-size": "16px",
-              "--swiper-pagination-bullet-horizontal-gap": "6px",
-              "--swiper-pagination-bottom": "0px",
-            }}
+             style={swiperCustomStyles}
             loop={true}
             modules={[Pagination, A11y, EffectCoverflow]}
             spaceBetween={0}
@@ -863,14 +855,7 @@ import 'swiper/css/scrollbar';
                   </ul>
                 </div>
           <Swiper
-            style={{
-              "--swiper-pagination-color": "#AA1F18",
-              "--swiper-pagination-bullet-inactive-color": "#999999",
-              "--swiper-pagination-bullet-inactive-opacity": "1",
-              "--swiper-pagination-bullet-size": "16px",
-              "--swiper-pagination-bullet-horizontal-gap": "6px",
-              "--swiper-pagination-bottom": "30px",
-            }}
+            style={swiperCustomStyles}
             loop={true}
             modules={[Pagination, A11y, EffectCoverflow]}
             spaceBetween={0}
