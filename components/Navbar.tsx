@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { NAV_LINKS, SOCIALS_URL } from '@/constants';
+import { motion } from 'framer-motion';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -75,13 +76,25 @@ export default function Navbar() {
             {/* Social Links */}
             <div className="self-start">
               <div className="font-semibold md:text-2xl lg:text-[32px] opacity-[80%] uppercase mb-2">Follow Us</div>
+              <motion.div
+              initial={{ x: 30, opacity: 0 }}
+              animate={{ x: 0, opacity: 1 }}
+              transition={{ duration: 0.6 }}
+              className="w-full flex flex-col justify-between items-end gap-6 text-white"
+            >
               <div className="flex items-center justify-start gap-3">
                 {SOCIALS_URL.map((url, index) => (
+                  <motion.div
+                  whileHover={{ scale: 1.2 }}
+                  key={index}
+                >
                   <Link key={index} href="/">
                     <img className="w-10 h-10" src={url} alt={`Social ${index}`} />
                   </Link>
+                  </motion.div>
                 ))}
               </div>
+              </motion.div>
             </div>
 
           </div>

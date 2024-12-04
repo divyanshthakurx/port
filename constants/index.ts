@@ -9,9 +9,9 @@
   
    // SOCIAL LINKS
    export const SOCIAL_LINKS = [
-    { href: '/', key: 'instagram', label: 'INSTAGRAM' },
-    { href: '/', key: 'twitter', label: 'TWITTER' },
-    { href: '/', key: 'youtube', label: 'YOUTUBE' },
+    { href: 'https://www.instagram.com/dastangoi_collective/?hl=en', key: 'instagram', label: 'INSTAGRAM' },
+    { href: 'https://twitter.com/dastangoitheart?lang=en', key: 'twitter', label: 'TWITTER' },
+    { href: 'https://www.youtube.com/@dastangoitheart', key: 'youtube', label: 'YOUTUBE' },
   ];
 
   // SOCIALS SECTION
@@ -37,6 +37,5 @@
       '/instagram.svg',
       '/twitter.svg',
       '/youtube.svg',
-      '/wordpress.svg',
     ],
   };
