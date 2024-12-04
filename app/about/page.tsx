@@ -57,7 +57,7 @@ const About = () => {
             </div>
         </section>
 
-        <section className="pb-16 lg:pb-0 xl:mb-0 bg-[#101010] text-white">
+        <section className="pb-16 pt-[4rem] md:pt-0 lg:pb-0 xl:mb-0 bg-[#101010] text-white">
             <div className="px-[8.5vw] xl:px-0">
             <div className="xl:grid grid-cols-[35%,65%] gridrows-3 xl:px-[8vw] xl:pt-[10vw] xl:gap-x-[5vw]">
                 <p className="text-5xl font-normal pt-[10vw] mb-6 font-Noto_Sans sm:text-6xl xl:order-2  xl:text-7xl xl:w-[32vw] xl:leading-none xl:pt-[0vw] xl:mb-0">Born in <span className="text-red-700">1973</span> in Gorakhpur, Uttar Pradesh</p>
