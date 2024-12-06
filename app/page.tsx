@@ -165,12 +165,12 @@ const swiperCustomStyles: CustomCSSProperties = {
                             is a passionate retelling of the life of Karna, a prominent character from the Indian epic Mahabharata combining a great variety of sources.
                             </p>
                             <div className="w-full flex flex-wrap justify-between items-center gap-y-2">
-                              <button className="w-[8rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
+                              <button className="w-[8rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
                               hover:font-medium
                               transition-all duration-75">
                                 Show
                               </button>
-                              <button className="w-[8rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
+                              <button className="w-[8rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
                               hover:font-medium
                               transition-all duration-75">
                                 Learn More
@@ -716,13 +716,13 @@ const swiperCustomStyles: CustomCSSProperties = {
                     </p>
                     <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
- 1822X' className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
+ 1822X' className="w-[8rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Read
                     </a>
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
- 1822X' className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
+ 1822X' className="w-[8rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Learn More
@@ -753,13 +753,13 @@ const swiperCustomStyles: CustomCSSProperties = {
                     </p>
                     <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
                       <a href='https://www.amazon.in/Requiem-Pakistan-World-Intizar-Husain/dp/93825794
- 27' className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
+ 27' className="w-[8rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Read
                     </a>
                       <a href='https://www.amazon.in/Requiem-Pakistan-World-Intizar-Husain/dp/93825794
- 27' className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
+ 27' className="w-[8rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Learn More
@@ -789,7 +789,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                     Co-Author, Compiler
                     </p>
                     <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <a href='https://www.amazon.in/Dastangoi-Mahmood-Faaruqui/dp/8126722304' className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
+                      <a href='https://www.amazon.in/Dastangoi-Mahmood-Faaruqui/dp/8126722304' className="w-[8rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[8rem] tracking-tighter hover:bg-primary-red text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Read
@@ -824,12 +824,12 @@ const swiperCustomStyles: CustomCSSProperties = {
                     Co-Author, Compiler
                     </p>
                     <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <a href='https://www.amazon.in/Dastangoi-2-Mahmood-Farooqui/dp/9388753488' className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
+                      <a href='https://www.amazon.in/Dastangoi-2-Mahmood-Farooqui/dp/9388753488' className="w-[8rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Read
                     </a>
-                      <a href='https://www.amazon.in/Dastangoi-2-Mahmood-Farooqui/dp/9388753488' className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
+                      <a href='https://www.amazon.in/Dastangoi-2-Mahmood-Farooqui/dp/9388753488' className="w-[8rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Learn More
@@ -859,12 +859,12 @@ const swiperCustomStyles: CustomCSSProperties = {
                     Translator
                     </p>
                     <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <a href='https://www.amazon.in/Memoirs-Habib-Tanvir/dp/0143422758' className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
+                      <a href='https://www.amazon.in/Memoirs-Habib-Tanvir/dp/0143422758' className="w-[8rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Read
                     </a>
-                      <a href='https://www.amazon.in/Memoirs-Habib-Tanvir/dp/0143422758' className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
+                      <a href='https://www.amazon.in/Memoirs-Habib-Tanvir/dp/0143422758' className="w-[8rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Learn More
@@ -894,12 +894,12 @@ const swiperCustomStyles: CustomCSSProperties = {
                     Researcher
                     </p>
                     <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <a href='#' className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
+                      <a href='#' className="w-[8rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Read
                     </a>
-                      <a href='#' className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
+                      <a href='#' className="w-[8rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Learn More
@@ -992,12 +992,12 @@ const swiperCustomStyles: CustomCSSProperties = {
                     Movie (Co-Director)
                     </p>
                     <div className="w-full flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <a href='#' className="w-[10rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
+                      <a href='#' className="w-[8rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
                       
                       transition-all duration-75">
                         Read
                     </a>
-                      <a href='#' className="w-[10rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
+                      <a href='#' className="w-[8rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
                       
                       transition-all duration-75">
                         Learn More
@@ -1027,12 +1027,12 @@ const swiperCustomStyles: CustomCSSProperties = {
                     Movie (Screenplay Writer)
                     </p>
                     <div className="w-full flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <a href='https://tv.apple.com/ai/movie/harud/umc.cmc.4109qbdv19gejutn0uu4izprw' className="w-[10rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
+                      <a href='https://tv.apple.com/ai/movie/harud/umc.cmc.4109qbdv19gejutn0uu4izprw' className="w-[8rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
                       
                       transition-all duration-75">
                         Read
                     </a>
-                      <a href='https://tv.apple.com/ai/movie/harud/umc.cmc.4109qbdv19gejutn0uu4izprw' className="w-[10rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
+                      <a href='https://tv.apple.com/ai/movie/harud/umc.cmc.4109qbdv19gejutn0uu4izprw' className="w-[8rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
                       
                       transition-all duration-75">
                         Learn More
@@ -1062,13 +1062,13 @@ const swiperCustomStyles: CustomCSSProperties = {
                     Movie (Co-Director)
                     </p>
                     <div className="w-full flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <a href='https://www.primevideo.com/detail/Mango-Souffl%C3%A9/0IQWGOK3KFEUYAZ7AKCR79EVGK' className="w-[10rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
+                      <a href='https://www.primevideo.com/detail/Mango-Souffl%C3%A9/0IQWGOK3KFEUYAZ7AKCR79EVGK' className="w-[8rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
                       
                       transition-all duration-75">
                         Read
                     </a>
                       <a href=' https://www.primevideo.com/detail/Mango-Souffl%C3%A9/0IQWGOK3KFEUYAZ7AK
- CR79EVGK' className="w-[10rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
+ CR79EVGK' className="w-[8rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
                       
                       transition-all duration-75">
                         Learn More
@@ -1098,13 +1098,13 @@ const swiperCustomStyles: CustomCSSProperties = {
                     Movie (Co-Director)
                     </p>
                     <div className="w-full flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <a href='https://www.primevideo.com/detail/Mango-Souffl%C3%A9/0IQWGOK3KFEUYAZ7AKCR79EVGK' className="w-[10rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
+                      <a href='https://www.primevideo.com/detail/Mango-Souffl%C3%A9/0IQWGOK3KFEUYAZ7AKCR79EVGK' className="w-[8rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
                       
                       transition-all duration-75">
                         Read
                     </a>
                       <a href=' https://www.primevideo.com/detail/Mango-Souffl%C3%A9/0IQWGOK3KFEUYAZ7AK
- CR79EVGK' className="w-[10rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
+ CR79EVGK' className="w-[8rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
                       
                       transition-all duration-75">
                         Learn More
