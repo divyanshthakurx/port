@@ -8,7 +8,23 @@ import { useEffect } from "react";
 import gsap from "gsap";
 
 
+
 const About = () => {
+
+    useEffect(() => {
+        const timelineContainer = document.querySelector('.timeline-container');
+    
+        gsap.to(timelineContainer, {
+          scrollTrigger: {
+            trigger: timelineContainer,
+            start: 'top top',
+            end: 'bottom bottom',
+            scrub: true,
+            pin: true, // This will pin the timeline in place until the end
+          },
+        });
+      }, []);
+
     useEffect(() => {
       gsap.fromTo(
         ".blur-text",
@@ -170,7 +186,7 @@ const About = () => {
                     <img className=" xl:w-[30rem] h-[26rem] md:h-[34rem]" src={"/about/career.png"} alt="My Image" />
                     
                         <div className="text-white font-Noto_Sans font-light">
-                                <ul className="w-full h-[34rem] flex flex-col gap-8 no-scrollbar overflow-y-scroll overflow-x-hidden">
+                                <ul className="w-full h-[34rem] timeline-container flex flex-col gap-8 no-scrollbar overflow-y-scroll no-scrollbar overflow-x-hidden">
                                     <hr /> 
                                     <li className="flex gap-x-6">
                                         <div>2002</div>

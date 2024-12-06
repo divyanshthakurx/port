@@ -18,6 +18,11 @@ body {
   font-family: Montserrat;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 /* Hide scrollbar in Webkit browsers (Chrome, Safari) */
 .no-scrollbar::-webkit-scrollbar {
   display: none;
@@ -51,6 +56,13 @@ body {
 .custom-swiper {
   --swiper-pagination-color: #ffffff;
 }
+
+.timeline-container {
+  height: 34rem;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
 
 .swiper-pagination-bullet {
   background-color: #aa1f18; /* Set the background color */

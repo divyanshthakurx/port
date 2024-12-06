@@ -164,13 +164,13 @@ const swiperCustomStyles: CustomCSSProperties = {
                             <p className="text-white text-md font-light font-Noto_Sans md:text-[15px] xl:text-lg leading-tight">
                             is a passionate retelling of the life of Karna, a prominent character from the Indian epic Mahabharata combining a great variety of sources.
                             </p>
-                            <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
-                              <button className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
+                            <div className="w-full flex flex-wrap justify-between items-center gap-y-2">
+                              <button className="w-[8rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
                               hover:font-medium
                               transition-all duration-75">
                                 Show
                               </button>
-                              <button className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
+                              <button className="w-[8rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                               hover:font-medium
                               transition-all duration-75">
                                 Learn More
