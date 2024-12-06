@@ -91,16 +91,14 @@ const Footer = () => {
                 ))}
               </div>
               <div className='flex justify-end gap-6 sm:gap-2'>
-                {SOCIALS_URL.map((url, index) => (
+                {SOCIALS_URL.map((social, index) => (
                   <motion.div
-                    whileHover={{ scale: 1.2 }}
-                    key={index}
-                   
-
-                  >
-                    <Link href={'/'}>
-                      <img className='w-10 h-10' src={url} alt="Social Icon" />
-                    </Link>
+                  whileHover={{ scale: 1.2 }}
+                  key={index}
+                >
+                  <a key={index} href={social.href} target="_blank" rel="noopener noreferrer">
+                    <img className="w-10 h-10"  src={social.src} alt={`Social ${index}`} />
+                  </a>
                   </motion.div>
                 ))}
               </div>

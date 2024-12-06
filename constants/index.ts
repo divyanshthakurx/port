@@ -3,8 +3,8 @@
     { href: '/', key: 'home', label: 'HOME' },
     { href: '/about', key: 'about', label: 'ABOUT' },
     { href: '/gallery', key: 'gallery', label: 'GALLERY' },
-    { href: '/contact', key: 'contact', label: 'CONTACT' },
-    { href: '/events', key: 'events', label: 'EVENTS' },
+    { href: 'mailto:mahmood.farooqui@gmail.com', key: 'contact', label: 'CONTACT' },
+    { href: '/', key: 'events', label: 'EVENTS' },
   ];
   
    // SOCIAL LINKS
@@ -16,11 +16,20 @@
 
   // SOCIALS SECTION
   export const SOCIALS_URL = [
-    '/navbar/instagram.svg',
-    '/navbar/tx.svg',
-    '/navbar/facebook.svg',
-    '/navbar/youtube.svg',
+    {
+      src: '/navbar/instagram.svg',
+      href: 'https://www.instagram.com/dastangoi_collective/?hl=en',
+    },
+    {
+      src: '/navbar/tx.svg',
+      href: 'https://twitter.com/dastangoitheart?lang=en',
+    },
+    {
+      src: '/navbar/youtube.svg',
+      href: 'https://www.youtube.com/@dastangoitheart',
+    },
   ];
+  
 
     // footer
     export const FOOT_LINKS = [

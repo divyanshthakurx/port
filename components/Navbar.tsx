@@ -70,7 +70,7 @@ export default function Navbar() {
             {/* Email */}
             <div className="self-start">
               <div className="font-semibold md:text-2xl lg:text-[32px] opacity-[80%] uppercase mb-2">Email</div>
-              <div className="font-bold text-xl md:text-2xl bxl:text-4xl text-white hover:text-white/60 transition-colors duration-300 ease-in-out cursor-pointer">mahmood.farooqui@gmail.com</div>
+              <a href="mailto:mahmood.farooqui@gmail.com" className="font-bold text-xl md:text-2xl bxl:text-4xl text-white hover:text-white/60 transition-colors duration-300 ease-in-out cursor-pointer">mahmood.farooqui@gmail.com</a>
             </div>
             
             {/* Social Links */}
@@ -83,14 +83,14 @@ export default function Navbar() {
               className="w-full flex flex-col justify-between items-end gap-6 text-white"
             >
               <div className="flex items-center justify-start gap-3">
-                {SOCIALS_URL.map((url, index) => (
+                {SOCIALS_URL.map((social, index) => (
                   <motion.div
                   whileHover={{ scale: 1.2 }}
                   key={index}
                 >
-                  <Link key={index} href="/">
-                    <img className="w-10 h-10" src={url} alt={`Social ${index}`} />
-                  </Link>
+                  <a key={index} href={social.href} target="_blank" rel="noopener noreferrer">
+                    <img className="w-10 h-10"  src={social.src} alt={`Social ${index}`} />
+                  </a>
                   </motion.div>
                 ))}
               </div>

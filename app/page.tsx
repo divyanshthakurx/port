@@ -165,12 +165,12 @@ const swiperCustomStyles: CustomCSSProperties = {
                             is a passionate retelling of the life of Karna, a prominent character from the Indian epic Mahabharata combining a great variety of sources.
                             </p>
                             <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
-                              <button className="min-w-[6.5rem] bg-white font-medium text-primary-red border rounded-md font-Noto_Sans  py-2 xl:px-20 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
+                              <button className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
                               hover:font-medium
                               transition-all duration-75">
                                 Show
                               </button>
-                              <button className="min-w-[6.5rem] text-white border rounded-md font-Noto_Sans font-medium py-2 xl:px-14 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
+                              <button className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                               hover:font-medium
                               transition-all duration-75">
                                 Learn More
@@ -714,17 +714,19 @@ const swiperCustomStyles: CustomCSSProperties = {
                     <p className="text-white text-base font-light font-Noto_Sans mt-2">
                     Book (Compiler and Translator)
                     </p>
-                    <div className="w-full flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <button className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
+                    <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
+                      <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
+ 1822X' className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Read
-                    </button>
-                      <button className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
+                    </a>
+                      <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
+ 1822X' className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Learn More
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -749,17 +751,19 @@ const swiperCustomStyles: CustomCSSProperties = {
                     <p className="text-white text-base font-light font-Noto_Sans mt-2">
                     Book (Author)
                     </p>
-                    <div className="w-full flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <button className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
+                    <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
+                      <a href='https://www.amazon.in/Requiem-Pakistan-World-Intizar-Husain/dp/93825794
+ 27' className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Read
-                    </button>
-                      <button className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
+                    </a>
+                      <a href='https://www.amazon.in/Requiem-Pakistan-World-Intizar-Husain/dp/93825794
+ 27' className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Learn More
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -784,17 +788,17 @@ const swiperCustomStyles: CustomCSSProperties = {
                     <p className="text-white text-base font-light font-Noto_Sans mt-2">
                     Co-Author, Compiler
                     </p>
-                    <div className="w-full flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <button className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
+                    <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
+                      <a href='https://www.amazon.in/Dastangoi-Mahmood-Faaruqui/dp/8126722304' className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Read
-                    </button>
-                      <button className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
+                    </a>
+                      <a href='https://www.amazon.in/Dastangoi-Mahmood-Faaruqui/dp/8126722304' className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Learn More
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -819,17 +823,17 @@ const swiperCustomStyles: CustomCSSProperties = {
                     <p className="text-white text-base font-light font-Noto_Sans mt-2">
                     Co-Author, Compiler
                     </p>
-                    <div className="w-full flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <button className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
+                    <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
+                      <a href='https://www.amazon.in/Dastangoi-2-Mahmood-Farooqui/dp/9388753488' className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Read
-                    </button>
-                      <button className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
+                    </a>
+                      <a href='https://www.amazon.in/Dastangoi-2-Mahmood-Farooqui/dp/9388753488' className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Learn More
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -854,17 +858,17 @@ const swiperCustomStyles: CustomCSSProperties = {
                     <p className="text-white text-base font-light font-Noto_Sans mt-2">
                     Translator
                     </p>
-                    <div className="w-full flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <button className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
+                    <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
+                      <a href='https://www.amazon.in/Memoirs-Habib-Tanvir/dp/0143422758' className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Read
-                    </button>
-                      <button className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
+                    </a>
+                      <a href='https://www.amazon.in/Memoirs-Habib-Tanvir/dp/0143422758' className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Learn More
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -889,17 +893,17 @@ const swiperCustomStyles: CustomCSSProperties = {
                     <p className="text-white text-base font-light font-Noto_Sans mt-2">
                     Researcher
                     </p>
-                    <div className="w-full flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <button className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
+                    <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
+                      <a href='#' className="w-[10rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Read
-                    </button>
-                      <button className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
+                    </a>
+                      <a href='#' className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Learn More
-                      </button>
+                      </a>
                     </div>
                   </div>
                 </div>
