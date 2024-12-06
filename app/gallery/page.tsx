@@ -23,41 +23,31 @@ const Gallery = () => {
       <section className='bg-[#101010] text-white relative z-20'>
         <div  className='w-full h-screen flex flex-col justify-center items-center'>
           <div className='text-center font-Noto_Sans fixed z-50 bg-blend-hue'>
-            <p className='font-black text-5xl lg:text-7xl xl:text-[80px] uppercase mb-4 mix-blend-difference transition-all duration-300'>Mahmood Farooqui</p>
-            <p className='font-light lg:text-3xl'>Click Image To Enlarge</p>
+            <p className='font-black text-5xl lg:text-7xl xl:text-[80px] uppercase mb-4 mix-blend-difference pointer-events-none transition-all duration-300'>Mahmood Farooqui</p>
+            <p className='font-light lg:text-3xl '>Click Image To Enlarge</p>
           </div>
         </div>
-
-        <LightGallery
-          speed={500}
-          plugins={[lgThumbnail, lgZoom]}
-          download={false}
-          >
-            <a href="/gallery/Mahmood Farooqui 1.png" data-src="/gallery/Mahmood Farooqui 1.png" className='w-full h-full'>
-              <img src='/gallery/Mahmood Farooqui 1.png' alt='' className='absolute top-0 left-0 w-[45vw] lg:w-[30vw] lg:top-8 lg:left-4 h-auto transition-transform duration-300 hover:scale-110 hover:shadow-lg cursor-pointer' />
-            </a> 
-            <a href="/gallery/Prithvi Festival.png" data-src="/gallery/Prithvi Festival.png" className='w-full h-full'>
-              <img src='/gallery/Prithvi Festival.png' alt='' className='absolute top-32 right-4 w-[40vw] h-auto lg:w-[22vw] lg:top-20 lg:right-56 xl:right-[25rem]transition-transform duration-300 hover:scale-110 hover:shadow-lg cursor-pointer' />
-            </a>
-            <a href="/gallery/Mahmood Smiling.png" data-src="/gallery/Mahmood Smiling.png" className='w-full h-full'>
-              <img src='/gallery/Mahmood Smiling.png' alt='' className='absolute top-[28rem] -right-24 w-[65vw] h-auto lg:w-[36vw] lg:top-[25rem] lg:right-[2rem] xl:right-[6rem] transition-transform duration-300 hover:scale-110 hover:shadow-lg cursor-pointer' />
-            </a>
-            <a href="/gallery/Mahmood From Dastan-e-mir.png" data-src="/gallery/Mahmood From Dastan-e-mir.png" className='w-full h-full'>
-              <img src='/gallery/Mahmood From Dastan-e-mir.png' alt='' className='absolute top-[34rem] left-2 w-[49vw] h-auto lg:w-[32vw] lg:-bottom-[6rem] lg:left-[10rem] transition-transform duration-300 hover:scale-110 hover:shadow-lg cursor-pointer' />
-            </a>
-        </LightGallery>
-
-      </section>
-
-      <section className='bg-[#101010] text-white w-full h-[182rem] xl:h-[356rem] '>  
+        <div className='w-full h-[182rem] xl:h-[356rem] '>  
         <div className='relative w-full h-full'>
           <LightGallery
           speed={500}
           plugins={[lgThumbnail, lgZoom]}
           download={false}
           >
+            <a href="/gallery/Mahmood Farooqui 1.png" data-src="/gallery/Mahmood Farooqui 1.png" className='w-full h-full'>
+              <img src='/gallery/Mahmood Farooqui 1.png' alt='' className='absolute -top-[54rem] left-0 w-[45vw] lg:w-[30vw] lg:-top-[54rem] lg:left-4 h-auto transition-transform duration-300 hover:scale-110 hover:shadow-lg cursor-pointer' />
+            </a> 
+            <a href="/gallery/Prithvi Festival.png" data-src="/gallery/Prithvi Festival.png" className='w-full h-full'>
+              <img src='/gallery/Prithvi Festival.png' alt='' className='absolute -top-[48rem] right-4 w-[40vw] h-auto lg:w-[22vw] lg:-top-[48rem] lg:right-56 xl:right-[25rem]transition-transform duration-300 hover:scale-110 hover:shadow-lg cursor-pointer' />
+            </a>
+            <a href="/gallery/Mahmood Smiling.png" data-src="/gallery/Mahmood Smiling.png" className='w-full h-full'>
+              <img src='/gallery/Mahmood Smiling.png' alt='' className='absolute -top-[32rem] -right-24 w-[65vw] h-auto lg:w-[36vw] lg:-top-[20rem] lg:right-[2rem] xl:right-[6rem] transition-transform duration-300 hover:scale-110 hover:shadow-lg cursor-pointer' />
+            </a>
+            <a href="/gallery/Mahmood From Dastan-e-mir.png" data-src="/gallery/Mahmood From Dastan-e-mir.png" className='w-full h-full'>
+              <img src='/gallery/Mahmood From Dastan-e-mir.png' alt='' className='absolute -top-[16rem] left-2 w-[49vw] h-auto lg:w-[32vw] lg:-top-[18rem] lg:-bottom-[6rem] lg:left-[10rem] transition-transform duration-300 hover:scale-110 hover:shadow-lg cursor-pointer' />
+            </a>
             <a href="/gallery/Mahmood With His Son And Wife.png" data-src="/gallery/Mahmood With His Son And Wife.png" className='w-full h-full'> 
-              <img src='/gallery/Mahmood With His Son And Wife.png' alt='' className='absolute top-[2rem] right-8 w-[28vw] h-auto lg:w-[16vw] lg:top-[24rem] lg:right-[6rem] transition-transform duration-300 hover:scale-110 hover:shadow-lg cursor-pointer' />
+              <img src='/gallery/Mahmood With His Son And Wife.png' alt='' className='absolute top-[2rem] right-8 w-[28vw] h-auto lg:w-[16vw] lg:top-[20rem] lg:right-[6rem] transition-transform duration-300 hover:scale-110 hover:shadow-lg cursor-pointer' />
             </a>
             <a href="/gallery/Mahmood Farooqui with Nitish Kumar.png" data-src="/gallery/Mahmood Farooqui with Nitish Kumar.png" className='w-full h-full'>
               <img src='/gallery/Mahmood Farooqui with Nitish Kumar.png' alt='' className='absolute top-[16rem] left-0 w-[78vw] h-auto lg:w-[38vw] lg:top-[44rem] lg:-left-1 transition-transform duration-300 hover:scale-110 hover:shadow-lg cursor-pointer' />
@@ -92,7 +82,10 @@ const Gallery = () => {
           </LightGallery>
 
         </div> 
+      </div>
       </section>
+
+     
 
     </>
 

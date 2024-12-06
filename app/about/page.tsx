@@ -60,45 +60,98 @@ const About = () => {
         <section className="pb-16 pt-[4rem] md:pt-0 lg:pb-0 xl:mb-0 bg-[#101010] text-white">
             <div className="px-[8.5vw] xl:px-0">
             <div className="xl:grid grid-cols-[35%,65%] gridrows-3 xl:px-[8vw] xl:pt-[10vw] xl:gap-x-[5vw]">
-                <p className="text-5xl font-normal pt-[10vw] mb-6 font-Noto_Sans sm:text-6xl xl:order-2  xl:text-7xl xl:w-[32vw] xl:leading-none xl:pt-[0vw] xl:mb-0">Born in <span className="text-red-700">1973</span> in Gorakhpur, Uttar Pradesh</p>
+                <motion.p className="text-5xl font-normal pt-[10vw] mb-6 font-Noto_Sans sm:text-6xl xl:order-2  xl:text-7xl xl:w-[32vw] xl:leading-none xl:pt-[0vw] xl:mb-0"
+                initial={{ opacity: 0, y: 50 }} 
+                whileInView={{ opacity: 1, y: 0 }}  
+                transition={{ duration: 2, ease: 'easeOut' }}  
+                viewport={{ once: true, amount: 0.25 }} 
+                >Born in <span className="text-red-700">1973</span> in Gorakhpur, Uttar Pradesh</motion.p>
                 <img src="/about/Frame 13.jpg" alt="" className="w-full mb-12 px-6 xl:hidden"/>
                 <img src="/about/Frame 13_2.jpg" alt="" className="hidden xl:block xl:w-[25vw] xl:order-1 xl:row-span-3"/>
-                <p className="mb-10 font-Noto_Sans font-light sm:text-2xl xl:order-3 xl:text-3xl xl:leading-none xl:mb-0 xl:mt-[24px]">He was inspired by his family's rich literary background and developed a passion for literature and storytelling from an early age.
-                </p>
+                <motion.p className="mb-10 font-Noto_Sans font-light sm:text-2xl xl:order-3 xl:text-3xl xl:leading-none xl:mb-0 xl:mt-[24px]"
+                initial={{ opacity: 0, y: 50 }}  
+                whileInView={{ opacity: 1, y: 0 }}  
+                transition={{ duration: 1.25, ease: 'easeOut' }}  
+                viewport={{ once: true, amount: 0.25 }}
+                >He was inspired by his family's rich literary background and developed a passion for literature and storytelling from an early age.
+                </motion.p>
             </div>
             <div className="text-2xl mb-[4.5rem] sm:text-4xl xl:px-[8vw] xl:flex justify-between xl:w-full xl:text-4xl xl:mt-[5vw]">
-                <div className="font-Noto_Sans font-light flex flex-col gap-[1vw]">
+                <motion.div className="font-Noto_Sans font-light flex flex-col gap-[1vw]"
+                initial={{ opacity: 0, y: 50 }}  
+                whileInView={{ opacity: 1, y: 0 }}  
+                transition={{ duration: 1.25, ease: 'easeOut' }}  
+                viewport={{ once: true, amount: 0.25 }}
+                >
                 <span className="opacity-[80%] xl:text-[2vw]">Father</span>
                 <p className="mb-[10vw] sm:mb-[0vw]">Mahboob Ur Rahman</p>
-                </div>
-                <div className="text-right font-Noto_Sans font-light flex flex-col gap-[1vw] mt-[5vw]">
+                </motion.div>
+                <motion.div className="text-right font-Noto_Sans font-light flex flex-col gap-[1vw] mt-[5vw]"
+                initial={{ opacity: 0, y: 50 }}  
+                whileInView={{ opacity: 1, y: 0 }}  
+                transition={{ duration: 1.25, ease: 'easeOut' }}  
+                viewport={{ once: true, amount: 0.25 }}
+                >
                 <span className="opacity-[80%] xl:text-[2vw]">Mother</span>
                 <p>Suraiya Farooqui</p>
-                </div>
+                </motion.div>
             </div>
             <div className="xl:grid xl:grid-cols-2 xl:px-[8vw] gap-[5vw]">
                 <img src="/about/Facebook post - 2.jpg" alt="" className="mb-6 order-2 m-auto sm:w-[50vw] xl:w-full xl:mb-0"/>
                 <div className="order-1 sm:text-3xl xl:text-[1.72rem]">
-                    <p className="text-4xl font-Noto_Sans font-medium mb-4 md:text-7xl"> Education</p>
-                    <p className="mb-5 leading-tight font-Noto_Sans font-light">Farooqui completed his schooling at the Doon School in Dehradun and pursued history at St. Stephen's College, Delhi.</p>
-                    <p className="leading-tight font-Noto_Sans font-light">His academic excellence earned him a Rhodes Scholarship to study at St. Peter's College, University of Oxford, where he achieved a Top First in History</p>
+                    <motion.p className="text-4xl font-Noto_Sans font-medium mb-4 md:text-7xl"
+                    initial={{ opacity: 0, y: 50 }}  
+                    whileInView={{ opacity: 1, y: 0 }}  
+                    transition={{ duration: 1.25, ease: 'easeOut' }}  
+                    viewport={{ once: true, amount: 0.25 }}
+                    > Education</motion.p>
+                    <motion.p className="mb-5 leading-tight font-Noto_Sans font-light"
+                    initial={{ opacity: 0, y: 50 }} 
+                    whileInView={{ opacity: 1, y: 0 }}  
+                    transition={{ duration: 2, ease: 'easeOut' }}  
+                    viewport={{ once: true, amount: 0.25 }} 
+                    >Farooqui completed his schooling at the Doon School in Dehradun and pursued history at St. Stephen's College, Delhi.</motion.p>
+                    <motion.p className="leading-tight font-Noto_Sans font-light"
+                    initial={{ opacity: 0, y: 50 }} 
+                    whileInView={{ opacity: 1, y: 0 }}  
+                    transition={{ duration: 2, ease: 'easeOut' }}  
+                    viewport={{ once: true, amount: 0.25 }} 
+                    >His academic excellence earned him a Rhodes Scholarship to study at St. Peter's College, University of Oxford, where he achieved a Top First in History</motion.p>
                 </div>
             </div>
             </div>
         </section>
 
         <section className="relative pt-14 bg-gradient-to-r from-[#101010] from-20% to-[#AA1F18] text-white pb-20 lg:px-[8vw]">
-            <h2 className="px-10 text-5xl font-Noto_Sans font-bold mb-[5vw] sm:mb-0 lg:px-0 xl:text-[65px] xl:font-normal xl:tracking-tight xl:w-[80%]">IN 2005  HE BEGAN REVIVING THE FORGOTTEN <span className="text-red-700 xl:text-white">ART</span> OF DASTANGOI</h2>
+            <motion.h2 className="px-10 text-5xl font-Noto_Sans font-bold mb-[5vw] sm:mb-0 lg:px-0 xl:text-[65px] xl:font-normal xl:tracking-tight xl:w-[80%]"
+            initial={{ opacity: 0, y: 50 }}  
+            whileInView={{ opacity: 1, y: 0 }}  
+            transition={{ duration: 1.25, ease: 'easeOut' }}  
+            viewport={{ once: true, amount: 0.25 }}
+            >IN 2005  HE BEGAN REVIVING THE FORGOTTEN <span className="text-red-700 xl:text-white">ART</span> OF DASTANGOI
+            </motion.h2>
             <div className="lg:grid lg:grid-cols-[2fr_1fr] lg:mt-[5vw]">
                 <div className="pr-10 lg:order-2 lg:pr-0">
                     <div className="w-full flex justify-end mb-5">
                     <img src="/about/shamsur-rahman-faruqi 1.png" alt="" className="md:w-[18%] lg:w-[15vw]"/>
                     </div>
-                    <p className="text-right mb-[5vw] text-[#ffffffd0] font-Noto_Sans leading-tight md:mb-[2vw] md:text-xl lg:text-[19px] xl:text-2xl xl:mb-48">With The Guidance Of His Uncle, <br/><span className="text-white">Shamsur Rahman Faruqi</span></p>
+                    <motion.p className="text-right mb-[5vw] text-[#ffffffd0] font-Noto_Sans leading-tight md:mb-[2vw] md:text-xl lg:text-[19px] xl:text-2xl xl:mb-48"
+                    initial={{ opacity: 0, y: 50 }} 
+                    whileInView={{ opacity: 1, y: 0 }}  
+                    transition={{ duration: 2, ease: 'easeOut' }}  
+                    viewport={{ once: true, amount: 0.25 }} 
+                    >With The Guidance Of His Uncle, <br/><span className="text-white">Shamsur Rahman Faruqi</span>
+                    </motion.p>
                 </div>
                 <div className="lg:order-1">
                     <img src="/about/mf5 2.jpg" alt="" className="w-[100%] mb-[5vw] xl:w-[54vw]"/>
-                    <p className="px-10 leading-tight font-Noto_Sans sm:text-xl lg:px-0 xl:text-2xl bxl:text-3xl">Determined to keep the art alive, he founded the Dastangoi Collective. gathering and training new performers, ensuring its continuity. His efforts were recognized in 2010 when he received the prestigious Ustad Bilsmillah Khan Yuva Puraskar.</p>
+                    <motion.p className="px-10 leading-tight font-Noto_Sans sm:text-xl lg:px-0 xl:text-2xl bxl:text-3xl"
+                    initial={{ opacity: 0, y: 50 }} 
+                    whileInView={{ opacity: 1, y: 0 }}  
+                    transition={{ duration: 2, ease: 'easeOut' }}  
+                    viewport={{ once: true, amount: 0.25 }} 
+                    >Determined to keep the art alive, he founded the Dastangoi Collective. gathering and training new performers, ensuring its continuity. His efforts were recognized in 2010 when he received the prestigious Ustad Bilsmillah Khan Yuva Puraskar.
+                    </motion.p>
                 </div>
             </div>
         </section>
@@ -106,7 +159,13 @@ const About = () => {
         <section className="bg-[#101010]">
             <div className="py-[4rem] px-[2rem]">  
                 <div className="bxl:px-[6rem]">
-                    <h5 className="uppercase mb-16 text-white font-Noto_Sans font-bold xl:font-normal xl:text-[72px] xl:w-[60rem] xl:leading-[5rem] text-[3rem] leading-[3rem]">career in theater & revival of dastangoi</h5>
+                    <motion.h5 className="uppercase mb-16 text-white font-Noto_Sans font-bold xl:font-normal xl:text-[72px] xl:w-[60rem] xl:leading-[5rem] text-[3rem] leading-[3rem]"
+                    initial={{ opacity: 0, y: 50 }}  
+                    whileInView={{ opacity: 1, y: 0 }}  
+                    transition={{ duration: 1.25, ease: 'easeOut' }}  
+                    viewport={{ once: true, amount: 0.25 }}
+                    >career in theater & revival of dastangoi
+                    </motion.h5>
                     <div className="w-full flex flex-col lg:flex-row items-center justify-center lg:gap-[8rem] content-center gap-y-20">
                     <img className=" xl:w-[30rem] h-[26rem] md:h-[34rem]" src={"/about/career.png"} alt="My Image" />
                     
@@ -216,9 +275,9 @@ const About = () => {
             <div className="py-[64px] sm:py-0 sm:pt-[64px] ">
                 <div className="flex flex-col justify-center items-center gap-12 lg:gap-0 bxl:gap-4 lg:relative md:px-[4rem] lg:px-[9rem]">
                     <motion.div className="font-Noto_Sans w-full flex flex-col md:flex-row md:justify-between gap-6 px-[2rem]"
-                    initial={{ opacity: 0, y: 50 }}  // Start with opacity 0 and move the element 50px down
-                    whileInView={{ opacity: 1, y: 0 }}  // Animate to full opacity and original position
-                    transition={{ duration: 1.25, ease: 'easeOut' }}  // Duration and easing of the animation
+                    initial={{ opacity: 0, y: 50 }}  
+                    whileInView={{ opacity: 1, y: 0 }}  
+                    transition={{ duration: 1.25, ease: 'easeOut' }}  
                     viewport={{ once: true, amount: 0.25 }}
                     >
                         <div className="md:text-3xl">In 2002</div>
@@ -265,10 +324,10 @@ const About = () => {
                         >vision
                         </motion.h6>
                         <motion.p className="text-white font-light leading-[22px] mt-4 xl:text-2xl xl:w-[33rem]"
-                         initial={{ opacity: 0, y: 50 }}  // Start with opacity 0 and move the element 50px down
-                         whileInView={{ opacity: 1, y: 0 }}  // Animate to full opacity and original position
-                         transition={{ duration: 2, ease: 'easeOut' }}  // Duration and easing of the animation
-                         viewport={{ once: true, amount: 0.25 }}  // Trigger animation when 25% of the element is in view
+                         initial={{ opacity: 0, y: 50 }} 
+                         whileInView={{ opacity: 1, y: 0 }}  
+                         transition={{ duration: 2, ease: 'easeOut' }}  
+                         viewport={{ once: true, amount: 0.25 }}  
                         >
                             Mahmood Farooqui's philosophy centers on the revival and adaptation of Dastangoi, the ancient art of Urdu storytelling. He envisions this art form as a bridge between tradition and modernity, allowing for the exploration of contemporary themes through historical narratives. Farooqui believes in making storytelling accessible to new generations, using it as a medium to engage with social issues and foster cultural preservation, ultimately inspiring dialogue and reflection among audiences.He hopes that in the years to come, his team will be able to provide audiences with stories from different eras, genres and traditions.
                         </motion.p>
