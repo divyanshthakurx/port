@@ -52,25 +52,27 @@ const Footer = () => {
             >Want to Talk
             </motion.p>
             <div className="w-full flex justify-around xl:justify-start xl:gap-6 bxl:gap-16 items-center">
-              <motion.button
+              <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: 'spring', stiffness: 300 }}
                 viewport={{ once: true, amount: 0.25 }}
-                className='text-primary-red flex justify-center items-center gap-2 xl:gap-4 font-semibold text-sm bg-white border-2 rounded-full px-8 py-3 bxl:w-[14rem] bxl:text-2xl'
+                href="mailto:mahmood.farooqui@gmail.com"
+                className='text-primary-red flex justify-center text-center items-center gap-2 xl:gap-4 font-semibold text-sm bg-white border-2 rounded-full px-8 py-3 bxl:w-[14rem] bxl:text-2xl'
               >
                 <Image src={"/footer/mail.svg"} className='w-4 h-4 bxl:w-6 bxl:h-6' alt={"Mahmood Farooqui"} width={4} height={4} />
                 Email Me
-              </motion.button>
-              <motion.button
+              </motion.a>
+              <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: 'tween', stiffness: 300 }}
                 viewport={{ once: true, amount: 0.25 }}
-                className='text-white border-2 text-sm font-semibold rounded-full px-8 py-3 bxl:w-[14rem] bxl:text-2xl'
+                href="https://en.wikipedia.org/wiki/Mahmood_Farooqui"
+                className='text-white border-2 text-sm font-semibold rounded-full text-center  px-8 py-3 bxl:w-[14rem] bxl:text-2xl'
               >
                 Learn More
-              </motion.button>
+              </motion.a>
             </div>
           </motion.div>
           <div className='w-full flex flex-col sm:flex-row-reverse justify-center items-center md:justify-between sm:items-end gap-8 sm:gap-0 z-20'>
