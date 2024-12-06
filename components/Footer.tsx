@@ -68,6 +68,8 @@ const Footer = () => {
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: 'tween', stiffness: 300 }}
                 viewport={{ once: true, amount: 0.25 }}
+                target="_blank"
+                rel="noopener noreferrer"
                 href="https://en.wikipedia.org/wiki/Mahmood_Farooqui"
                 className='text-white border-2 text-sm font-semibold rounded-full text-center  px-8 py-3 bxl:w-[14rem] bxl:text-2xl'
               >
