@@ -429,7 +429,7 @@ const swiperCustomStyles: CustomCSSProperties = {
       {/* // SECTION 5 */}
 
       <section className="bg-[#151515] w-full pt-12 px-8 lg:px-20">
-          <div className='w-full flex flex-col justify-between items-center'>
+          <div className='w-full '>
             <div className="uppercase text-[#AA1F18] font-Noto_Sans font-bold text-5xl mb-[4rem] xl:text-[64px] xl:font-extrabold">
               <motion.h4
               initial={{ opacity: 0, y: 50 }}  
@@ -478,7 +478,7 @@ const swiperCustomStyles: CustomCSSProperties = {
             <SwiperSlide>
               {({ isActive }) => (
                 <div
-                  className={`mt-12 transition-opacity duration-300 ${
+                  className={`mt-0 lg:mt-12 transition-opacity duration-300 ${
                     isActive ? "opacity-100" : "opacity-50"
                   }`}
                 >
@@ -631,7 +631,6 @@ const swiperCustomStyles: CustomCSSProperties = {
                 </div>
               )}
             </SwiperSlide>
-            <p className='opacity-0'>.</p>
             <p className='opacity-0'>.</p>
             <p className='opacity-0'>.</p>
           </Swiper>
@@ -909,7 +908,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                 </div>
               )}
             </SwiperSlide>         
-            <p className='opacity-0'>.</p>
+            
             <p className='opacity-0'>.</p>
           </Swiper>
       </section>
