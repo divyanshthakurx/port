@@ -794,7 +794,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                       transition-all duration-75">
                         Read
                     </a>
-                      <a href='https://www.amazon.in/Dastangoi-Mahmood-Faaruqui/dp/8126722304' className="w-[10rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
+                      <a href='https://www.amazon.in/Dastangoi-Mahmood-Faaruqui/dp/8126722304' className="w-[8rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                       hover:font-medium
                       transition-all duration-75">
                         Learn More
