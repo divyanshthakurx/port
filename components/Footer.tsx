@@ -29,7 +29,7 @@ const Footer = () => {
       viewport={{ once: true, amount: 0.25 }}
       className='bg-primary-bg z-50'
     >
-      <footer className='bottom-0 rounded-t-[2rem] bg-gradient-to-t from-[#AA1F18] from-60% to-[#440C0A] to-100% h-3/4 relative z-30'>
+      <footer className='bottom-0 rounded-t-[2rem] bg-[#AA1F18] h-3/4 relative z-30'>
         <motion.img className="rounded-t-[2rem] sm:rounded-tl-none w-full sm:absolute sm:w-[17rem] md:w-[24rem] lg:w-[30rem] xl:w-[38rem] bxl:w-[42rem] h-auto top-0 sm:right-0" src={"/footer/mahmood-farooqui.jpg"} alt="Picture of Mahmood farooqui" width={390} height={310} 
          initial={{ y: -60, opacity: 0 }}
          animate={{ y: 0, opacity: 1 }}
