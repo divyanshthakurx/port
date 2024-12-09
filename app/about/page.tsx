@@ -1,8 +1,5 @@
 "use client";
 // import Image from "next/image";
-import { SOCIAL_LINKS } from "@/constants";
-import Link from "next/link";
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { useEffect } from "react";
 import gsap from "gsap";
@@ -81,7 +78,7 @@ const About = () => {
                 whileInView={{ opacity: 1, y: 0 }}  
                 transition={{ duration: 2, ease: 'easeOut' }}  
                 viewport={{ once: true, amount: 0.25 }} 
-                >Born in <span className="text-red-700">1973</span> in Gorakhpur, Uttar Pradesh</motion.p>
+                >Born in <span className="text-red-700">1972</span> in Gorakhpur, Uttar Pradesh</motion.p>
                 <img src="/about/Frame 13.jpg" alt="" className="w-full mb-12 px-6 xl:hidden"/>
                 <img src="/about/Frame 13_2.jpg" alt="" className="hidden xl:block xl:w-[25vw] xl:order-1 xl:row-span-3"/>
                 <motion.p className="mb-10 font-Noto_Sans font-light sm:text-2xl xl:order-3 xl:text-3xl xl:leading-none xl:mb-0 xl:mt-[24px]"
@@ -100,7 +97,7 @@ const About = () => {
                 viewport={{ once: true, amount: 0.25 }}
                 >
                 <span className="opacity-[80%] xl:text-[2vw]">Father</span>
-                <p className="mb-[10vw] sm:mb-[0vw]">Mahboob Ur Rahman</p>
+                <p className="mb-[10vw] sm:mb-[0vw] ">Mahboob Ur Rahman Farooqi</p>
                 </motion.div>
                 <motion.div className="text-right font-Noto_Sans font-light flex flex-col gap-[1vw] mt-[5vw]"
                 initial={{ opacity: 0, y: 50 }}  
@@ -132,7 +129,7 @@ const About = () => {
                     whileInView={{ opacity: 1, y: 0 }}  
                     transition={{ duration: 2, ease: 'easeOut' }}  
                     viewport={{ once: true, amount: 0.25 }} 
-                    >His academic excellence earned him a Rhodes Scholarship to study at St. Peter's College, University of Oxford, where he achieved a Top First in History</motion.p>
+                    >His work in theatre and academic excellence earned him a Rhodes Scholarship to study at St. Peter's College, University of Oxford, where he achieved a Top First in History.</motion.p>
                 </div>
             </div>
             </div>
@@ -257,7 +254,7 @@ const About = () => {
                                     <hr />
                                     <li className="flex gap-x-6">
                                         <div>2014</div>
-                                        <p>Co-Author of dastangoi (Part-1)</p>
+                                        <p>Wrote his first book Dastagoi in urdu and hindi.</p>
                                     </li>
                                     <hr />
                                     <li className="flex gap-x-6">
@@ -267,7 +264,7 @@ const About = () => {
                                     <hr />
                                     <li className="flex gap-x-6">
                                         <div>2019</div>
-                                        <p>Co-Author of dastangoi (Part-2)</p>
+                                        <p>Presented a compilation of dastans written by him in Dastangoi 2</p>
                                     </li>
                                     <hr />
                                     <li className="flex gap-x-6">

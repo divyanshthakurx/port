@@ -1,10 +1,6 @@
 // import Image from "next/image";
 "use client";
 import Image from 'next/image';
-import { EmblaOptionsType } from 'embla-carousel'
-import EmblaCarousel from '@/components/EmblaCarousel';
-import { useEffect } from "react";
-import gsap from "gsap";
 import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, A11y, EffectCoverflow } from 'swiper/modules';
@@ -785,7 +781,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                     दास्तानगोई : Dastangoi
                     </p>
                     <p className="text-white text-base font-light font-Noto_Sans mt-2">
-                    Co-Author, Compiler
+                    Book (Writer & Compiler)
                     </p>
                     <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
                       <a href='https://www.amazon.in/Dastangoi-Mahmood-Faaruqui/dp/8126722304' className="w-[8rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[8rem] tracking-tighter hover:bg-primary-red text-primary-red
@@ -820,7 +816,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                     दास्तानगोई- 2: Dastangoi- 2 (Short Stories)
                     </p>
                     <p className="text-white text-base font-light font-Noto_Sans mt-2">
-                    Co-Author, Compiler
+                    Book (Writer & Compiler)
                     </p>
                     <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
                       <a href='https://www.amazon.in/Dastangoi-2-Mahmood-Farooqui/dp/9388753488' className="w-[8rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
