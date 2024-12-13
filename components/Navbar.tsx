@@ -61,7 +61,7 @@ export default function Navbar() {
             </div>
 
             {/* Image */}
-            <div className="w-fit h-auto place-self-end">
+            <div className="w-fit h-auto place-self-center sm:place-self-end">
               <img className="w-[21rem] h-auto sm:w-[52vw] md:w-[48vw] lg:w-[40vw] bxl:w-[34vw]" src="/navbar/mohmood-farooqui.jpg" alt="mohmood farooqui" />
             </div>
           </div>
