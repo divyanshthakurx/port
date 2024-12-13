@@ -40,19 +40,19 @@ export default function Navbar() {
 
       {/* Sidebar */}
       <div
-        className={`fixed py-[4rem] z-40 sm:py-[6rem] px-8 md:px-[3rem] lg:px-[4rem] xl:px-[7rem] bxl:px-[10rem] top-0 right-0 h-screen w-full bg-[#aa1f00] text-white transition-transform duration-300 ease-in-out  ${
+        className={`fixed py-[4rem] z-40 sm:py-[6rem] px-6 md:px-[3rem] lg:px-[4rem] xl:px-[7rem] bxl:px-[10rem] top-0 right-0 h-screen w-full bg-[#aa1f00] text-white transition-transform duration-300 ease-in-out  ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
         {/* Sidebar Content */}
         <nav className="flex flex-col items-center justify-between h-full space-y-6">
 
-          <div className='w-full flex flex-col justify-center items-center sm:flex-row sm:justify-between gap-y-6'>
-            <div className="flex flex-col justify-center items-center self-start">         
-              <ul className="self-start flex flex-col gap-2 font-Noto_Sans text-2xl sm:text-4xl md:text-6xl lg:leading-[5rem] font-semibold">
+          <div className='w-full flex flex-col justify-center items-start sm:flex-row sm:justify-between gap-y-6'>
+            <div className="w-full flex flex-col justify-center items-center self-start">         
+              <ul className="self-start w-full flex flex-col  gap-2 font-Noto_Sans text-2xl sm:text-4xl md:text-6xl lg:leading-[5rem] font-semibold">
                 {NAV_LINKS.map((link) => (
-                  <li key={link.label}>
-                    <button onClick={() => handleNavigation(link.href)} className="text-white hover:text-white/60 transition-colors duration-300 ease-in-out">
+                  <li key={link.label} className='w-full'>
+                    <button onClick={() => handleNavigation(link.href)} className="text-white text-left w-full hover:text-white/60 transition-colors duration-300 ease-in-out">
                       {link.label}
                     </button>
                   </li>
