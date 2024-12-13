@@ -47,7 +47,7 @@ export default function Navbar() {
         {/* Sidebar Content */}
         <nav className="flex flex-col items-center justify-between h-full space-y-6">
 
-          <div className='w-full flex flex-col justify-center items-start sm:flex-row sm:justify-between gap-y-6'>
+          <div className='w-full grid grid-cols-1 justify-items-center content-end sm:grid-cols-2  gap-y-6'>
             <div className="w-full flex flex-col justify-center items-center self-start">         
               <ul className="self-start w-full flex flex-col  gap-2 font-Noto_Sans text-2xl sm:text-4xl md:text-6xl lg:leading-[5rem] font-semibold">
                 {NAV_LINKS.map((link) => (
@@ -61,7 +61,7 @@ export default function Navbar() {
             </div>
 
             {/* Image */}
-            <div className="w-fit h-auto">
+            <div className="w-fit h-auto place-self-end">
               <img className="w-[21rem] h-auto sm:w-[52vw] md:w-[48vw] lg:w-[40vw] bxl:w-[34vw]" src="/navbar/mohmood-farooqui.jpg" alt="mohmood farooqui" />
             </div>
           </div>
