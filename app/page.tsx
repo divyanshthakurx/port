@@ -77,7 +77,7 @@ const swiperCustomStyles: CustomCSSProperties = {
 
             </div>
 
-            <div className='w-full min-[1300px]:px-20 flex flex-col md:flex-row justify-between items-start px-7 gap-10 md:gap-0 lg:gap-16 min-[1300px]:gap-12 bxl:gap-0'>
+            <div className='w-full min-[1300px]:px-20 flex flex-col md:flex-row justify-between items-start px-6 gap-10 md:gap-0 lg:gap-16 min-[1300px]:gap-12 bxl:gap-0'>
               <div className='flex justify-center items-start lg:gap-10'>
                 <motion.h2 className="uppercase font-Trajan_Pro font-bold text-5xl text-primary-red bxl:text-[3.5vw]"
                   initial={{ opacity: 0, y: 50 }} 
@@ -115,7 +115,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                 whileInView={{ opacity: 1, y: 0 }}  
                 transition={{ duration: 1.25, ease: 'easeOut' }}  
                 viewport={{ once: true, amount: 0.25 }}
-                >Mahmood Farooqui is an acclaimed Indian writer, performer, and director, celebrated for his expertise in Dastangoi, a traditional form of Urdu storytelling.</motion.p>
+                >Mahmood Farooqui is an acclaimed Indian writer, performer, and director, celebrated for reviving and popularizing Dastangoi, a lost form of Urdu storytelling.</motion.p>
               </div>
             </div>
           </div>           
@@ -124,7 +124,7 @@ const swiperCustomStyles: CustomCSSProperties = {
       {/* SECTTION 2 */}
 
       <section className="bg-primary-red w-full h-auto">
-            <div className="py-[5rem] px-8 lg:px-20">
+            <div className="py-[5rem] px-6 lg:px-20">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
                 <div className="text-white flex flex-col">
                   <div>
@@ -425,7 +425,7 @@ const swiperCustomStyles: CustomCSSProperties = {
       {/* // SECTION 4 */}
 
       <section className="bg-primary-bg w-full h-auto">
-        <div className="py-[6rem] px-8 lg:px-20">
+        <div className="py-[6rem] px-6 lg:px-20">
           <div className="text-white ">
              <motion.h3 className="uppercase font-Noto_Sans font-bold text-[2rem] lg:text-[5rem]"
              initial={{ opacity: 0, y: 50 }}  
@@ -464,9 +464,9 @@ const swiperCustomStyles: CustomCSSProperties = {
 
       {/* // SECTION 5 */}
 
-      <section className="bg-[#151515] w-full pt-12 px-8 lg:px-20">
+      <section className="bg-[#151515] w-full pt-16 px-6 lg:px-20">
           <div className='w-full '>
-            <div className="uppercase text-[#AA1F18] font-Noto_Sans font-bold text-[2rem] mb-[4rem] xl:text-[64px] xl:font-extrabold">
+            <div className="uppercase text-white leading-[2.2rem] lg:leading-[4rem] font-Noto_Sans font-bold text-[2rem] mb-[4rem] xl:text-[64px] xl:font-extrabold">
               <motion.h4
               initial={{ opacity: 0, y: 50 }}  
               whileInView={{ opacity: 1, y: 0 }}  
@@ -519,8 +519,8 @@ const swiperCustomStyles: CustomCSSProperties = {
                   }`}
                 >
                   <img
-                    className="w-full border rounded-lg border-none"
-                    src="./home/Carousel-ongoing-upcoming/poster-1.png"
+                    className="w-full border rounded-lg border-none "
+                    src="./home/Carousel-ongoing-upcoming/poster-ph.png"
                     alt=""
                   />
                   {/* <div className="mt-6">
@@ -533,11 +533,11 @@ const swiperCustomStyles: CustomCSSProperties = {
                     <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
                       <button className="w-[10rem] bxl:w-[14rem] py-4 text-white bg-primary-red rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
                         Ticket
-                      </button>
-                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-primary-red border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                      </button> */}
+                      <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
                         Learn More
                       </button>
-                    </div>
+                    {/* </div>
                   </div> */}
                 </div>
               )}
@@ -550,10 +550,13 @@ const swiperCustomStyles: CustomCSSProperties = {
                   }`}
                 >
                   <img
-                    className="w-full border rounded-lg border-none"
-                    src="./home/Carousel-ongoing-upcoming/poster-2.png"
+                    className="w-full border rounded-lg border-none "
+                    src="./home/Carousel-ongoing-upcoming/poster-ph.png"
                     alt=""
                   />
+                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                        Learn More
+                  </button>
                   {/* <div className="mt-6">
                     <p className="font-Noto_Sans text-3xl lg:font-bold xl:text-[2.5rem] text-white">
                     Dastan-e-Chauboli
@@ -582,10 +585,13 @@ const swiperCustomStyles: CustomCSSProperties = {
                   }`}
                 >
                   <img
-                    className="w-full border rounded-lg border-none"
-                    src="./home/Carousel-ongoing-upcoming/poster-3.png"
+                    className="w-full border rounded-lg border-none "
+                    src="./home/Carousel-ongoing-upcoming/poster-ph.png"
                     alt=""
                   />
+                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                        Learn More
+                  </button>
                   {/* <div className="mt-6">
                     <p className="font-Noto_Sans text-3xl lg:font-bold xl:text-[2.5rem] text-white">
                     Dastan-e-Karn az Mahabharat
@@ -613,10 +619,13 @@ const swiperCustomStyles: CustomCSSProperties = {
                   }`}
                 >
                   <img
-                    className="w-full border rounded-lg border-none"
-                    src="./home/Carousel-ongoing-upcoming/poster-4.png"
+                    className="w-full border rounded-lg border-none "
+                    src="./home/Carousel-ongoing-upcoming/poster-ph.png"
                     alt=""
                   />
+                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                        Learn More
+                  </button>
                   {/* <div className="mt-6">
                     <p className="font-Noto_Sans text-3xl lg:font-bold xl:text-[2.5rem] text-white">
                     Dastan Amar Ayyar aur Mahtab Jadu ki
@@ -644,10 +653,13 @@ const swiperCustomStyles: CustomCSSProperties = {
                   }`}
                 >
                   <img
-                    className="w-full border rounded-lg border-none" 
-                    src="./home/Carousel-ongoing-upcoming/poster-5.png"
+                    className="w-full border rounded-lg border-none "
+                    src="./home/Carousel-ongoing-upcoming/poster-ph.png"
                     alt=""
                   />
+                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                        Learn More
+                  </button>
                   {/* <div className="mt-6">
                     <p className="font-Noto_Sans text-3xl lg:font-bold xl:text-[2.5rem] text-white">
                     Dastan-E-Amir Hamza
