@@ -1042,7 +1042,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                       <a href='#' className="w-[8rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
                       
                       transition-all duration-75">
-                        Read
+                        Watch
                     </a>
                       <a href='#' className="w-[8rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
                       
@@ -1077,7 +1077,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                       <a href='https://tv.apple.com/ai/movie/harud/umc.cmc.4109qbdv19gejutn0uu4izprw' className="w-[8rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
                       
                       transition-all duration-75">
-                        Read
+                        Watch
                     </a>
                       <a href='https://tv.apple.com/ai/movie/harud/umc.cmc.4109qbdv19gejutn0uu4izprw' className="w-[8rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
                       
@@ -1112,7 +1112,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                       <a href='https://www.primevideo.com/detail/Mango-Souffl%C3%A9/0IQWGOK3KFEUYAZ7AKCR79EVGK' className="w-[8rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
                       
                       transition-all duration-75">
-                        Read
+                        Watch
                     </a>
                       <a href=' https://www.primevideo.com/detail/Mango-Souffl%C3%A9/0IQWGOK3KFEUYAZ7AK
  CR79EVGK' className="w-[8rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
@@ -1148,7 +1148,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                       <a href='https://www.primevideo.com/detail/Mango-Souffl%C3%A9/0IQWGOK3KFEUYAZ7AKCR79EVGK' className="w-[8rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
                       
                       transition-all duration-75">
-                        Read
+                        Watch
                     </a>
                       <a href=' https://www.primevideo.com/detail/Mango-Souffl%C3%A9/0IQWGOK3KFEUYAZ7AK
  CR79EVGK' className="w-[8rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
