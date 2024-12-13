@@ -17,6 +17,10 @@ module.exports = {
           '0%': { transform: 'scale(1)', opacity: '1' },
           '100%': { transform: 'scale(2)', opacity: '0' },
         },
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
       },
       colors: {
         primary: {
@@ -26,6 +30,7 @@ module.exports = {
       },
       animation: {
         'ping-slow': 'ping-slow 700ms cubic-bezier(0, 0, 0.2, 1) infinite',
+        'scroll': 'scroll 30s linear infinite',
       },
       backgroundImage: {
         'home-hero': "url('/home/hero/mahmood-farooqui-bg.png')",

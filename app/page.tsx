@@ -30,47 +30,87 @@ const swiperCustomStyles: CustomCSSProperties = {
 
       {/* SECTION 1 */}
 
-      <section className="bg-primary-bg py-16 w-full relative">
-          <img className="top-image cursor-pointer w-[20rem] h-auto -mt-10 top-[11.5rem] sm:w-[20rem] sm:top-[16rem] md:w-[25rem] lg:top-[6rem] lg:w-[30rem] min-[1300px]:w-[35rem] bxl:w-[30vw] left-1/2 transform -translate-x-1/2 absolute z-30" src="/home/hero/hero-main-bg.jpg" alt="" />
-          <img className="foreground-image cursor-pointer w-[20rem] h-auto -mt-10 top-[11.5rem] sm:w-[20rem] sm:top-[16rem] md:w-[25rem] lg:top-[6rem] lg:w-[30rem] min-[1300px]:w-[35rem] bxl:w-[30vw] left-1/2 transform -translate-x-1/2 absolute z-30" src="/home/hero/hero-main-fg.jpg" alt="" />
-          <div className="w-full h-[44rem] flex flex-col justify-between items-center lg:gap-24 lg:h-auto min-[1300px]:gap-36 bxl:gap-0">
+      <section className="bg-primary-bg pt-16 lg:pt-0 pb-16 w-full relative">
+          {/* <img className="top-image cursor-pointer w-[20rem] h-auto -mt-10 top-[11.5rem] sm:w-[20rem] sm:top-[16rem] md:w-[25rem] lg:top-[6rem] lg:w-[30rem] min-[1300px]:w-[35rem] bxl:w-[30vw] left-1/2 transform -translate-x-1/2 absolute z-30" src="/home/hero/hero-main-bg.jpg" alt="" />
+          <img className="foreground-image cursor-pointer w-[20rem] h-auto -mt-10 top-[11.5rem] sm:w-[20rem] sm:top-[16rem] md:w-[25rem] lg:top-[6rem] lg:w-[30rem] min-[1300px]:w-[35rem] bxl:w-[30vw] left-1/2 transform -translate-x-1/2 absolute z-30" src="/home/hero/hero-main-fg.jpg" alt="" /> */}
+          <div className="w-full h-[44rem] flex flex-col justify-between items-center lg:gap-16 lg:h-auto">
             <motion.h1 className="uppercase font-black font-Noto_Sans text-[19vw] text-white"
             initial={{ opacity: 0, y: 50 }} 
             whileInView={{ opacity: 1, y: 0 }}  
             transition={{ duration: 2, ease: 'easeOut' }}  
             viewport={{ once: true, amount: 0.25 }} 
             >dastango</motion.h1>
-            <div className='w-full min-[1300px]:px-20 flex flex-col justify-center items-center lg:gap-16 min-[1300px]:gap-12 bxl:gap-0'>
-              <div className='hidden md:block self-start md:px-7 mb-10'>
-                <ul className='uppercase text-white font-Noto_Sans font-medium text-2xl flex flex-col justify-center gap-2 min-[1300px]:text-[32px] bxl:text-[2.5vw] bxl:leading-none'>
-                  <motion.li
-                  initial={{ opacity: 0, y: 50 }}  
-                  whileInView={{ opacity: 1, y: 0 }}  
-                  transition={{ duration: 1.25, ease: 'easeOut' }}  
-                  viewport={{ once: true, amount: 0.25 }}
-                  >writer</motion.li>
-                  <motion.li
-                  initial={{ opacity: 0, y: 50 }}  
-                  whileInView={{ opacity: 1, y: 0 }}  
-                  transition={{ duration: 1.25, ease: 'easeOut' }}  
-                  viewport={{ once: true, amount: 0.25 }}
-                  >dastango</motion.li>
-                  <motion.li
-                  initial={{ opacity: 0, y: 50 }}  
-                  whileInView={{ opacity: 1, y: 0 }}  
-                  transition={{ duration: 1.25, ease: 'easeOut' }}  
-                  viewport={{ once: true, amount: 0.25 }}
-                  >director</motion.li>
+
+            <div className="w-full lg:-mt-[16rem] inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_8rem,_black_calc(100%-12.5rem),transparent_100%)]">
+
+                <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-scroll">
+                  <li>         
+                     <img className="w-[18rem] lg:w-[24rem] h-auto" src="/home/hero/hero-img-1.png" alt="G20" /> 
+                  </li>
+                  <li>
+                     <img className="w-[18rem] lg:w-[24rem] h-auto" src="/home/hero/hero-img-2.png" alt="gov" /> 
+                  </li>
+                  <li>
+                      <img className="w-[18rem] lg:w-[24rem] h-auto z-20" src="/home/hero/hero-img-3.png" alt="hp government" />
+                  </li>
+                  <li>
+                      <img className="w-[18rem] lg:w-[24rem] h-auto" src="/home/hero/hero-img-4.png" alt="gov india" />              
+                  </li>
                 </ul>
-              </div>
-              <div className="w-full text-white px-7 -mt-3 md:flex md:justify-between md:items-center self-end z-30">
+
+                <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-scroll" aria-hidden="true">
+
+                  <li>         
+                     <img className="w-[18rem] lg:w-[24rem] h-auto" src="/home/hero/hero-img-1.png" alt="G20" /> 
+                  </li>
+                  <li>
+                     <img className="w-[18rem] lg:w-[24rem] h-auto" src="/home/hero/hero-img-2.png" alt="gov" /> 
+                  </li>
+                  <li>
+                      <img className="w-[18rem] lg:w-[24rem] h-auto z-20" src="/home/hero/hero-img-3.png" alt="hp government" />
+                  </li>
+                  <li>
+                      <img className="w-[18rem] lg:w-[24rem] h-auto" src="/home/hero/hero-img-4.png" alt="gov india" />              
+                  </li>
+
+                </ul> 
+
+            </div>
+
+            <div className='w-full min-[1300px]:px-20 flex flex-col md:flex-row justify-between items-start px-7 gap-10 md:gap-0 lg:gap-16 min-[1300px]:gap-12 bxl:gap-0'>
+              <div className='flex justify-center items-start lg:gap-10'>
                 <motion.h2 className="uppercase font-Trajan_Pro font-bold text-5xl text-primary-red bxl:text-[3.5vw]"
-                initial={{ opacity: 0, y: 50 }} 
-                whileInView={{ opacity: 1, y: 0 }}  
-                transition={{ duration: 2, ease: 'easeOut' }}  
-                viewport={{ once: true, amount: 0.25 }} 
-                ><span className='text-3xl lg:text-5xl bxl:text-[3.5vw]'>Mahmood</span><br/>Farooqui</motion.h2>
-                <motion.p className="font-Noto_Sans font-light md:w-[32vw] md:pl-12 lg:pl-0 lg:font-medium min-[1300px]:text-[22px] bxl:text-[1.5vw] "
+                  initial={{ opacity: 0, y: 50 }} 
+                  whileInView={{ opacity: 1, y: 0 }}  
+                  transition={{ duration: 2, ease: 'easeOut' }}  
+                  viewport={{ once: true, amount: 0.25 }} 
+                  ><span className='text-3xl lg:text-4xl'>Mahmood</span><br/>Farooqui</motion.h2>
+              
+                <div className='hidden md:block md:px-7 self-center'>
+                  <ul className='uppercase text-white font-Noto_Sans font-medium text-2xl flex flex-col justify-center gap-2 min-[1300px]:text-[32px] bxl:text-[2.5vw] bxl:leading-none'>
+                    <motion.li
+                    initial={{ opacity: 0, y: 50 }}  
+                    whileInView={{ opacity: 1, y: 0 }}  
+                    transition={{ duration: 1.25, ease: 'easeOut' }}  
+                    viewport={{ once: true, amount: 0.25 }}
+                    >writer</motion.li>
+                    <motion.li
+                    initial={{ opacity: 0, y: 50 }}  
+                    whileInView={{ opacity: 1, y: 0 }}  
+                    transition={{ duration: 1.25, ease: 'easeOut' }}  
+                    viewport={{ once: true, amount: 0.25 }}
+                    >dastango</motion.li>
+                    <motion.li
+                    initial={{ opacity: 0, y: 50 }}  
+                    whileInView={{ opacity: 1, y: 0 }}  
+                    transition={{ duration: 1.25, ease: 'easeOut' }}  
+                    viewport={{ once: true, amount: 0.25 }}
+                    >director</motion.li>
+                  </ul>   
+                </div>
+              </div>
+              <div className="w-full md:w-[32vw] text-white -mt-3 self-start z-30">
+                <motion.p className="font-Noto_Sans font-light md:w-[32vw] lg:pl-0 lg:font-medium min-[1300px]:text-[22px] bxl:text-[1.5vw] "
                 initial={{ opacity: 0, y: 50 }}  
                 whileInView={{ opacity: 1, y: 0 }}  
                 transition={{ duration: 1.25, ease: 'easeOut' }}  
@@ -387,7 +427,7 @@ const swiperCustomStyles: CustomCSSProperties = {
       <section className="bg-primary-bg w-full h-auto">
         <div className="py-[6rem] px-8 lg:px-20">
           <div className="text-white ">
-             <motion.h3 className="uppercase font-Noto_Sans font-bold text-[5rem]"
+             <motion.h3 className="uppercase font-Noto_Sans font-bold text-[2rem] lg:text-[5rem]"
              initial={{ opacity: 0, y: 50 }}  
              whileInView={{ opacity: 1, y: 0 }}  
              transition={{ duration: 2, ease: 'easeOut' }}  
@@ -426,7 +466,7 @@ const swiperCustomStyles: CustomCSSProperties = {
 
       <section className="bg-[#151515] w-full pt-12 px-8 lg:px-20">
           <div className='w-full '>
-            <div className="uppercase text-[#AA1F18] font-Noto_Sans font-bold text-5xl mb-[4rem] xl:text-[64px] xl:font-extrabold">
+            <div className="uppercase text-[#AA1F18] font-Noto_Sans font-bold text-[2rem] mb-[4rem] xl:text-[64px] xl:font-extrabold">
               <motion.h4
               initial={{ opacity: 0, y: 50 }}  
               whileInView={{ opacity: 1, y: 0 }}  
@@ -635,7 +675,7 @@ const swiperCustomStyles: CustomCSSProperties = {
       {/* // SECTION 6 */}
 
       <section className="bg-[#151515] w-full pt-12 px-6 lg:px-20">
-          <motion.h4 className="uppercase text-white font-Noto_Sans font-bold text-5xl mb-6"
+          <motion.h4 className="uppercase text-white font-Noto_Sans font-bold text-[2rem] lg:text-[5rem] mb-6"
            initial={{ opacity: 0, y: 50 }}  
            whileInView={{ opacity: 1, y: 0 }}  
            transition={{ duration: 2, ease: 'easeOut' }}  
@@ -912,7 +952,7 @@ const swiperCustomStyles: CustomCSSProperties = {
       {/* // SECTION 7 */}
 
       <section className="bg-[#151515] w-full pt-12 px-6 lg:px-20 pb-[4rem]">
-          <motion.h4 className="uppercase text-white font-Noto_Sans font-bold text-5xl mb-6"
+          <motion.h4 className="uppercase text-white font-Noto_Sans font-bold text-[2rem] lg:text-[5rem] mb-6"
            initial={{ opacity: 0, y: 50 }}  
            whileInView={{ opacity: 1, y: 0 }}  
            transition={{ duration: 2, ease: 'easeOut' }}  
