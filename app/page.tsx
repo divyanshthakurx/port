@@ -125,7 +125,7 @@ const swiperCustomStyles: CustomCSSProperties = {
 
       <section className="bg-primary-red w-full h-auto">
             <div className="py-[5rem] px-6 lg:px-20">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-20">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-20 justify-items-center content-center">
                 <div className="text-white flex flex-col">
                   <div>
                     <motion.h3 className="font-Noto_Sans w-full font-bold text-[52px] lg:text-[104px]"
@@ -134,7 +134,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                     transition={{ duration: 2, ease: 'easeOut' }}  
                     viewport={{ once: true, amount: 0.25 }}
                     >DASTANGOI</motion.h3>
-                    <motion.p className="font-Noto_Sans mt-6"
+                    <motion.p className="font-Noto_Sans mt-8  "
                     initial={{ opacity: 0, y: 50 }}  
                     whileInView={{ opacity: 1, y: 0 }}  
                     transition={{ duration: 1.25, ease: 'easeOut' }}  
@@ -142,11 +142,11 @@ const swiperCustomStyles: CustomCSSProperties = {
                     >Mahmood Farooqui is a pivotal figure in Indian arts, celebrated for reviving the ancient art of Dastangoi. A master storyteller, he brings history and culture to life, using this traditional Urdu narrative form to connect the past with modern-day themes. His performances transcend mere storytelling, immersing audiences in deeply evocative and timeless narratives.</motion.p>
                   </div>
                   <div>
-                    <Image className="mt-16 w-full" src="/home/posters.jpg" alt="My Image" width={500} height={300} />
+                    <Image className="mt-16 xl:mt-[6rem] w-full" src="/home/posters.jpg" alt="My Image" width={500} height={300} />
                   </div>
                 </div>
-                <div>
-                  <Swiper className='h-auto  xl:w-[28vw]'
+                <div className='place-self-center'>
+                  <Swiper className='h-auto xl:w-[26vw]'
                      style={swiperCustomStyles}
                     loop={true}
                     modules={[Pagination, A11y, EffectCoverflow]}
@@ -185,33 +185,37 @@ const swiperCustomStyles: CustomCSSProperties = {
                     <SwiperSlide>
                       {({ isActive }) => (
                         <div
-                          className={`p-5 flex flex-col justify-between h-[46rem] md:h-[30rem] xl:h-[54rem] mb-5 gap-y-4 transition-opacity duration-300 ${
+                          className={`transition-opacity duration-300 ${
                             isActive ? "opacity-100" : "opacity-50"
                           }`}
                         >
                           <img
-                            className="w-full xl:w-[26rem] xl:h-[34.5rem] border rounded-lg border-none"
-                            src="./home/dastangoi/poster-1.png"
+                            className="w-full border rounded-t-xl border-none"
+                            src="./home/dastangoi/poster-1.jpg"
                             alt=""
                           />
+
+                          <div className='rounded-b-xl p-4 flex flex-col gap-y-4 border border-white'>
                             <p className="font-Noto_Sans text-3xl text-white font-bold md:text-2xl xl:text-3xl">
                             Dastan-e-Karn az Mahabharat
                             </p>
                             <p className="text-white text-md font-light font-Noto_Sans md:text-[15px] xl:text-lg leading-tight">
                             is a passionate retelling of the life of Karna, a prominent character from the Indian epic Mahabharata combining a great variety of sources.
                             </p>
-                            <div className="w-full flex flex-wrap justify-between items-center gap-y-2">
-                              <button className="w-[8rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
+                            <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
+                              <button className="w-full text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
                               hover:font-medium
-                              transition-all duration-75">
+                              transition-all duration-700">
                                 Show
                               </button>
-                              <button className="w-[8rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
+                              <button className="w-full text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
                               hover:font-medium
-                              transition-all duration-75">
+                              transition-all duration-700">
                                 Learn More
                               </button>
                             </div>
+                          </div>
+                          
                         </div>
                       )}
                     </SwiperSlide>
@@ -236,12 +240,12 @@ const swiperCustomStyles: CustomCSSProperties = {
                             <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
                               <button className="min-w-[6.5rem] bg-white font-medium text-primary-red border rounded-md font-Noto_Sans  py-2 xl:px-20 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                               hover:font-medium
-                              transition-all duration-75">
+                              transition-all duration-700">
                                 Show
                               </button>
                               <button className="min-w-[6.5rem] text-white border rounded-md font-Noto_Sans font-medium py-2 xl:px-14 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                               hover:font-medium
-                              transition-all duration-75">
+                              transition-all duration-700">
                                 Learn More
                               </button>
                             </div>
@@ -269,12 +273,12 @@ const swiperCustomStyles: CustomCSSProperties = {
                             <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
                               <button className="min-w-[6.5rem] bg-white font-medium text-primary-red border rounded-md font-Noto_Sans  py-2 xl:px-20 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                               hover:font-medium
-                              transition-all duration-75">
+                              transition-all duration-700">
                                 Show
                               </button>
                               <button className="min-w-[6.5rem] text-white border rounded-md font-Noto_Sans font-medium py-2 xl:px-14 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                               hover:font-medium
-                              transition-all duration-75">
+                              transition-all duration-700">
                                 Learn More
                               </button>
                             </div>
@@ -302,12 +306,12 @@ const swiperCustomStyles: CustomCSSProperties = {
                             <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
                               <button className="min-w-[6.5rem] bg-white font-medium text-primary-red border rounded-md font-Noto_Sans  py-2 xl:px-20 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                               hover:font-medium
-                              transition-all duration-75">
+                              transition-all duration-700">
                                 Show
                               </button>
                               <button className="min-w-[6.5rem] text-white border rounded-md font-Noto_Sans font-medium py-2 xl:px-14 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                               hover:font-medium
-                              transition-all duration-75">
+                              transition-all duration-700">
                                 Learn More
                               </button>
                             </div>
@@ -335,12 +339,12 @@ const swiperCustomStyles: CustomCSSProperties = {
                             <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
                               <button className="min-w-[6.5rem] bg-white font-medium text-primary-red border rounded-md font-Noto_Sans  py-2 xl:px-20 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                               hover:font-medium
-                              transition-all duration-75">
+                              transition-all duration-700">
                                 Show
                               </button>
                               <button className="min-w-[6.5rem] text-white border rounded-md font-Noto_Sans font-medium py-2 xl:px-14 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                               hover:font-medium
-                              transition-all duration-75">
+                              transition-all duration-700">
                                 Learn More
                               </button>
                             </div>
@@ -368,12 +372,12 @@ const swiperCustomStyles: CustomCSSProperties = {
                             <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
                               <button className="min-w-[6.5rem] bg-white font-medium text-primary-red border rounded-md font-Noto_Sans  py-2 xl:px-20 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                               hover:font-medium
-                              transition-all duration-75">
+                              transition-all duration-700">
                                 Show
                               </button>
                               <button className="min-w-[6.5rem] text-white border rounded-md font-Noto_Sans font-medium py-2 xl:px-14 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                               hover:font-medium
-                              transition-all duration-75">
+                              transition-all duration-700">
                                 Learn More
                               </button>
                             </div>
@@ -401,19 +405,19 @@ const swiperCustomStyles: CustomCSSProperties = {
                             <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
                               <button className="min-w-[6.5rem] bg-white font-medium text-primary-red border rounded-md font-Noto_Sans  py-2 xl:px-20 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                               hover:font-medium
-                              transition-all duration-75">
+                              transition-all duration-700">
                                 Show
                               </button>
                               <button className="min-w-[6.5rem] text-white border rounded-md font-Noto_Sans font-medium py-2 xl:px-14 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
                               hover:font-medium
-                              transition-all duration-75">
+                              transition-all duration-700">
                                 Learn More
                               </button>
                             </div>
                         </div>
                       )}
                     </SwiperSlide> */}
-                    <p className='opacity-0'>.</p>
+                    {/* <p className='opacity-0'>.</p> */}
                   </Swiper>
                 </div>
               </div>            
@@ -524,7 +528,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                     src="./home/Carousel-ongoing-upcoming/poster-ph.png"
                     alt=""
                   />
-                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base ">
                         Learn More
                   </button>
                   {/* <div className="mt-6">
@@ -536,10 +540,10 @@ const swiperCustomStyles: CustomCSSProperties = {
 
                     </p>
                     <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
-                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-white bg-primary-red rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-white bg-primary-red rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
                         Ticket
                       </button>
-                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-primary-red border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-primary-red border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
                         Learn More
                       </button>
                     </div>
@@ -559,7 +563,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                     src="./home/Carousel-ongoing-upcoming/poster-ph.png"
                     alt=""
                   />
-                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
                         Learn More
                   </button>
                   {/* <div className="mt-6">
@@ -571,10 +575,10 @@ const swiperCustomStyles: CustomCSSProperties = {
 
                     </p>
                     <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
-                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-white bg-primary-red rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-white bg-primary-red rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
                         Ticket
                       </button>
-                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-primary-red border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-primary-red border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
                         Learn More
                       </button>
                     </div>
@@ -594,7 +598,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                     src="./home/Carousel-ongoing-upcoming/poster-ph.png"
                     alt=""
                   />
-                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
                         Learn More
                   </button>
                   {/* <div className="mt-6">
@@ -605,10 +609,10 @@ const swiperCustomStyles: CustomCSSProperties = {
                     Date: October 20, 2024 | <br/> Location: Habitat Centre, Delhi, <br/> India
                     </p>
                     <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
-                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-white bg-primary-red rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-white bg-primary-red rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
                         Ticket
                       </button>
-                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-primary-red border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-primary-red border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
                         Learn More
                       </button>
                     </div>
@@ -628,7 +632,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                     src="./home/Carousel-ongoing-upcoming/poster-ph.png"
                     alt=""
                   />
-                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
                         Learn More
                   </button>
                   {/* <div className="mt-6">
@@ -639,10 +643,10 @@ const swiperCustomStyles: CustomCSSProperties = {
                     Date: October 15, 2024 | <br/> Location: Habitat Centre, Delhi, <br/> India
                     </p>
                     <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
-                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-white bg-primary-red rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-white bg-primary-red rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
                         Ticket
                       </button>
-                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-primary-red border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-primary-red border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
                         Learn More
                       </button>
                     </div>
@@ -662,7 +666,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                     src="./home/Carousel-ongoing-upcoming/poster-ph.png"
                     alt=""
                   />
-                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
                         Learn More
                   </button>
                   {/* <div className="mt-6">
@@ -673,10 +677,10 @@ const swiperCustomStyles: CustomCSSProperties = {
                     Date: October 15, 2024 | <br /> Location: Habitat Centre, Delhi, <br /> India
                     </p>
                     <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
-                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-white bg-primary-red rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-white bg-primary-red rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
                         Ticket
                       </button>
-                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-primary-red border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-primary-red border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
                         Learn More
                       </button>
                     </div>
@@ -768,11 +772,11 @@ const swiperCustomStyles: CustomCSSProperties = {
                     </p>
                     <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
-                        1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
+                        1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-700">
                         Read
                       </a>
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
-                        1822X' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-75">
+                        1822X' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-700">
                         Learn More
                       </a>
                     </div>
@@ -802,10 +806,10 @@ const swiperCustomStyles: CustomCSSProperties = {
                     Author
                     </p>
                     <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
-                      <a href=' https://www.amazon.in/Requiem-Pakistan-World-Intizar-Husain/dp/9382579427' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
+                      <a href=' https://www.amazon.in/Requiem-Pakistan-World-Intizar-Husain/dp/9382579427' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-700">
                         Read
                       </a>
-                      <a href=' https://www.amazon.in/Requiem-Pakistan-World-Intizar-Husain/dp/9382579427' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-75">
+                      <a href=' https://www.amazon.in/Requiem-Pakistan-World-Intizar-Husain/dp/9382579427' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-700">
                         Learn More
                       </a>
                     </div>
@@ -836,11 +840,11 @@ const swiperCustomStyles: CustomCSSProperties = {
                     </p>
                     <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
-                        1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
+                        1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-700">
                         Read
                       </a>
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
-                        1822X' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-75">
+                        1822X' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-700">
                         Learn More
                       </a>
                     </div>
@@ -871,11 +875,11 @@ const swiperCustomStyles: CustomCSSProperties = {
                     </p>
                     <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
-                        1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
+                        1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-700">
                         Read
                       </a>
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
-                        1822X' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-75">
+                        1822X' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-700">
                         Learn More
                       </a>
                     </div>
@@ -906,11 +910,11 @@ const swiperCustomStyles: CustomCSSProperties = {
                     </p>
                     <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
-                        1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
+                        1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-700">
                         Read
                       </a>
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
-                        1822X' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-75">
+                        1822X' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-700">
                         Learn More
                       </a>
                     </div>
@@ -941,11 +945,11 @@ const swiperCustomStyles: CustomCSSProperties = {
                     </p>
                     <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
-                        1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
+                        1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-700">
                         Read
                       </a>
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
-                        1822X' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-75">
+                        1822X' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-700">
                         Learn More
                       </a>
                     </div>
@@ -1038,12 +1042,12 @@ const swiperCustomStyles: CustomCSSProperties = {
                     <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
                       <a href='#' className="w-full text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
                       
-                      transition-all duration-75">
+                      transition-all duration-700">
                         Watch
                     </a>
                       <a href='#' className="w-full text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
                       
-                      transition-all duration-75">
+                      transition-all duration-700">
                         Learn More
                       </a>
                     </div>
@@ -1073,12 +1077,12 @@ const swiperCustomStyles: CustomCSSProperties = {
                     <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
                       <a href='#' className="w-full text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
                       
-                      transition-all duration-75">
+                      transition-all duration-700">
                         Watch
                     </a>
                       <a href='#' className="w-full text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
                       
-                      transition-all duration-75">
+                      transition-all duration-700">
                         Learn More
                       </a>
                     </div>
@@ -1108,12 +1112,12 @@ const swiperCustomStyles: CustomCSSProperties = {
                     <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
                       <a href='#' className="w-full text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
                       
-                      transition-all duration-75">
+                      transition-all duration-700">
                         Watch
                     </a>
                       <a href='#' className="w-full text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
                       
-                      transition-all duration-75">
+                      transition-all duration-700">
                         Learn More
                       </a>
                     </div>
@@ -1143,12 +1147,12 @@ const swiperCustomStyles: CustomCSSProperties = {
                     <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
                       <a href='#' className="w-full text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
                       
-                      transition-all duration-75">
+                      transition-all duration-700">
                         Watch
                     </a>
                       <a href='#' className="w-full text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
                       
-                      transition-all duration-75">
+                      transition-all duration-700">
                         Learn More
                       </a>
                     </div>
