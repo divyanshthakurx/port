@@ -761,12 +761,12 @@ const swiperCustomStyles: CustomCSSProperties = {
 
                   <div className="bg-red-700 rounded-b-xl p-4 flex flex-col gap-y-4">
                     <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl ">
-                    Besieged: Voices From Delhi-1857
+                    Besieged: <br /> Voices From Delhi-1857
                     </p>
                     <p className="text-white text-base font-light font-Noto_Sans">
                     Book (Compiler and Translator)
                     </p>
-                    <div className="w-full text-center flex flex-col xl:flex-row justify-between items-center gap-y-4 xl:gap-x-6">
+                    <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
                         1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
                         Read
@@ -796,12 +796,12 @@ const swiperCustomStyles: CustomCSSProperties = {
 
                   <div className="bg-red-700 rounded-b-xl p-4 flex flex-col gap-y-4">
                     <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl ">
-                    A Requiem for Pakistan
+                    A Requiem for <br /> Pakistan
                     </p>
                     <p className="text-white text-base font-light font-Noto_Sans">
                     Author
                     </p>
-                    <div className="w-full text-center flex flex-col xl:flex-row justify-between items-center gap-y-4 xl:gap-x-6">
+                    <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
                       <a href=' https://www.amazon.in/Requiem-Pakistan-World-Intizar-Husain/dp/9382579427' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
                         Read
                       </a>
@@ -829,12 +829,12 @@ const swiperCustomStyles: CustomCSSProperties = {
 
                   <div className="bg-red-700 rounded-b-xl p-4 flex flex-col gap-y-4">
                     <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl ">
-                    दास्तानगोई : Dastangoi
+                    दास्तानगोई : <br /> Dastangoi
                     </p>
                     <p className="text-white text-base font-light font-Noto_Sans">
                     Book (Writer & Compiler)
                     </p>
-                    <div className="w-full text-center flex flex-col xl:flex-row justify-between items-center gap-y-4 xl:gap-x-6">
+                    <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
                         1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
                         Read
@@ -864,12 +864,12 @@ const swiperCustomStyles: CustomCSSProperties = {
 
                   <div className="bg-red-700 rounded-b-xl p-4 flex flex-col gap-y-4">
                     <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl ">
-                    दास्तानगोई- 2: Dastangoi- 2
+                    दास्तानगोई- 2: <br /> Dastangoi- 2
                     </p>
                     <p className="text-white text-base font-light font-Noto_Sans">
                     Book (Writer & Compiler)
                     </p>
-                    <div className="w-full text-center flex flex-col xl:flex-row justify-between items-center gap-y-4 xl:gap-x-6">
+                    <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
                         1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
                         Read
@@ -899,12 +899,12 @@ const swiperCustomStyles: CustomCSSProperties = {
 
                   <div className="bg-red-700 rounded-b-xl p-4 flex flex-col gap-y-4">
                     <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl ">
-                    Memoirs: Habib Tanvir
+                    Memoirs: <br /> Habib Tanvir
                     </p>
                     <p className="text-white text-base font-light font-Noto_Sans">
                     Translator
                     </p>
-                    <div className="w-full text-center flex flex-col xl:flex-row justify-between items-center gap-y-4 xl:gap-x-6">
+                    <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
                         1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
                         Read
@@ -934,12 +934,12 @@ const swiperCustomStyles: CustomCSSProperties = {
 
                   <div className="bg-red-700 rounded-b-xl p-4 flex flex-col gap-y-4">
                     <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl ">
-                    The Last Mughal
+                    The Last <br /> Mughal
                     </p>
                     <p className="text-white text-base font-light font-Noto_Sans">
                     Researcher
                     </p>
-                    <div className="w-full text-center flex flex-col xl:flex-row justify-between items-center gap-y-4 xl:gap-x-6">
+                    <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
                         1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
                         Read
@@ -960,7 +960,7 @@ const swiperCustomStyles: CustomCSSProperties = {
 
       {/* // SECTION 7 */}
 
-      <section className="bg-[#151515] w-full pt-12 px-6 lg:px-20 pb-[4rem]">
+      <section className="bg-[#151515] w-full py-16 px-6 lg:px-20">
           <motion.h4 className="uppercase text-white font-Noto_Sans font-bold text-[2rem] lg:text-[5rem] mb-6"
            initial={{ opacity: 0, y: 50 }}  
            whileInView={{ opacity: 1, y: 0 }}  
@@ -999,7 +999,7 @@ const swiperCustomStyles: CustomCSSProperties = {
             centeredSlides={true}
             breakpoints={{
               500: {
-                slidesPerView: 2,
+                slidesPerView: 1,
                 spaceBetween: 20,
               },
               640: {
@@ -1019,29 +1019,29 @@ const swiperCustomStyles: CustomCSSProperties = {
             <SwiperSlide>
               {({ isActive }) => (
                 <div
-                  className={`mt-12 mb-10 transition-opacity duration-300 ${
+                  className={`my-12 mb-10 transition-opacity duration-300 ${
                     isActive ? "opacity-100" : "opacity-50"
                   }`}
                 >
                   <img
-                    className="w-full border rounded-t-lg border-none"
-                    src="./home/carousel-secondary/poster-1.png"
+                    className="w-full border rounded-t-xl border-none"
+                    src="./home/carousel-secondary/poster-1.jpg"
                     alt=""
                   />
-                  <div className="bg-red-700 rounded-b-lg p-5">
+                  <div className="bg-red-700 rounded-b-xl p-4 flex flex-col gap-y-4">
                     <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl">
                     Peepli Live
                     </p>
-                    <p className="text-white text-base font-light font-Noto_Sans mt-2">
+                    <p className="text-white text-base font-light font-Noto_Sans">
                     Movie (Co-Director)
                     </p>
-                    <div className="w-full flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <a href='#' className="w-[8rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
+                    <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
+                      <a href='#' className="w-full text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
                       
                       transition-all duration-75">
                         Watch
                     </a>
-                      <a href='#' className="w-[8rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
+                      <a href='#' className="w-full text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
                       
                       transition-all duration-75">
                         Learn More
@@ -1054,65 +1054,29 @@ const swiperCustomStyles: CustomCSSProperties = {
             <SwiperSlide>
               {({ isActive }) => (
                 <div
-                  className={`mt-12 transition-opacity duration-300 ${
+                  className={`my-12 mb-10 transition-opacity duration-300 ${
                     isActive ? "opacity-100" : "opacity-50"
                   }`}
                 >
                   <img
-                    className="w-full border rounded-t-lg border-none"
-                    src="./home/carousel-secondary/poster-2.png"
+                    className="w-full border rounded-t-xl border-none"
+                    src="./home/carousel-secondary/poster-2.jpg"
                     alt=""
                   />
-                  <div className="bg-red-700 rounded-b-lg p-5">
+                  <div className="bg-red-700 rounded-b-xl p-4 flex flex-col gap-y-4">
                     <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl">
-                      Harud
+                    Harud
                     </p>
-                    <p className="text-white text-base font-light font-Noto_Sans mt-2">
+                    <p className="text-white text-base font-light font-Noto_Sans">
                     Movie (Screenplay Writer)
                     </p>
-                    <div className="w-full flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <a href='https://tv.apple.com/ai/movie/harud/umc.cmc.4109qbdv19gejutn0uu4izprw' className="w-[8rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
+                    <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
+                      <a href='#' className="w-full text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
                       
                       transition-all duration-75">
                         Watch
                     </a>
-                      <a href='https://tv.apple.com/ai/movie/harud/umc.cmc.4109qbdv19gejutn0uu4izprw' className="w-[8rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
-                      
-                      transition-all duration-75">
-                        Learn More
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              )}
-            </SwiperSlide>         
-            <SwiperSlide>
-              {({ isActive }) => (
-                <div
-                  className={`mt-12 mb-10 transition-opacity duration-300 ${
-                    isActive ? "opacity-100" : "opacity-50"
-                  }`}
-                >
-                  <img
-                    className="w-full border rounded-t-lg border-none"
-                    src="./home/carousel-secondary/poster-3.png"
-                    alt=""
-                  />
-                  <div className="bg-red-700 rounded-b-lg p-5">
-                    <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl">
-                    Mango Souffle 
-                    </p>
-                    <p className="text-white text-base font-light font-Noto_Sans mt-2">
-                    Movie (Co-Director)
-                    </p>
-                    <div className="w-full flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <a href='https://www.primevideo.com/detail/Mango-Souffl%C3%A9/0IQWGOK3KFEUYAZ7AKCR79EVGK' className="w-[8rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
-                      
-                      transition-all duration-75">
-                        Watch
-                    </a>
-                      <a href=' https://www.primevideo.com/detail/Mango-Souffl%C3%A9/0IQWGOK3KFEUYAZ7AK
- CR79EVGK' className="w-[8rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
+                      <a href='#' className="w-full text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
                       
                       transition-all duration-75">
                         Learn More
@@ -1125,30 +1089,29 @@ const swiperCustomStyles: CustomCSSProperties = {
             <SwiperSlide>
               {({ isActive }) => (
                 <div
-                  className={`mt-12 mb-10 transition-opacity duration-300 ${
+                  className={`my-12 mb-10 transition-opacity duration-300 ${
                     isActive ? "opacity-100" : "opacity-50"
                   }`}
                 >
                   <img
-                    className="w-full border rounded-t-lg border-none"
-                    src="./home/carousel-secondary/poster-3.png"
+                    className="w-full border rounded-t-xl border-none"
+                    src="./home/carousel-secondary/poster-3.jpg"
                     alt=""
                   />
-                  <div className="bg-red-700 rounded-b-lg p-5">
+                  <div className="bg-red-700 rounded-b-xl p-4 flex flex-col gap-y-4">
                     <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl">
-                    Mango Souffle 
+                    Mango Souffle
                     </p>
-                    <p className="text-white text-base font-light font-Noto_Sans mt-2">
+                    <p className="text-white text-base font-light font-Noto_Sans">
                     Movie (Co-Director)
                     </p>
-                    <div className="w-full flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <a href='https://www.primevideo.com/detail/Mango-Souffl%C3%A9/0IQWGOK3KFEUYAZ7AKCR79EVGK' className="w-[8rem] bxl:w-[12rem] text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
+                    <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
+                      <a href='#' className="w-full text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
                       
                       transition-all duration-75">
                         Watch
                     </a>
-                      <a href=' https://www.primevideo.com/detail/Mango-Souffl%C3%A9/0IQWGOK3KFEUYAZ7AK
- CR79EVGK' className="w-[8rem] bxl:w-[12rem] text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
+                      <a href='#' className="w-full text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
                       
                       transition-all duration-75">
                         Learn More
@@ -1157,8 +1120,42 @@ const swiperCustomStyles: CustomCSSProperties = {
                   </div>
                 </div>
               )}
-            </SwiperSlide>
-            
+            </SwiperSlide>  
+            <SwiperSlide>
+              {({ isActive }) => (
+                <div
+                  className={`my-12 mb-10 transition-opacity duration-300 ${
+                    isActive ? "opacity-100" : "opacity-50"
+                  }`}
+                >
+                  <img
+                    className="w-full border rounded-t-xl border-none"
+                    src="./home/carousel-secondary/poster-3.jpg"
+                    alt=""
+                  />
+                  <div className="bg-red-700 rounded-b-xl p-4 flex flex-col gap-y-4">
+                    <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl">
+                    Mango Souffle
+                    </p>
+                    <p className="text-white text-base font-light font-Noto_Sans">
+                    Movie (Co-Director)
+                    </p>
+                    <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
+                      <a href='#' className="w-full text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
+                      
+                      transition-all duration-75">
+                        Watch
+                    </a>
+                      <a href='#' className="w-full text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
+                      
+                      transition-all duration-75">
+                        Learn More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              )}
+            </SwiperSlide>                           
             <p className='opacity-0'>.</p>
           </Swiper>
       </section>
