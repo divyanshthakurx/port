@@ -425,7 +425,7 @@ const swiperCustomStyles: CustomCSSProperties = {
       {/* // SECTION 4 */}
 
       <section className="bg-primary-bg w-full h-auto">
-        <div className="py-[6rem] px-6 lg:px-20">
+        <div className="py-16 md:py-[6rem] px-6 lg:px-20">
           <div className="text-white ">
              <motion.h3 className="uppercase font-Noto_Sans font-bold text-[2rem] lg:text-[5rem]"
              initial={{ opacity: 0, y: 50 }}  
@@ -749,252 +749,211 @@ const swiperCustomStyles: CustomCSSProperties = {
             <SwiperSlide>
               {({ isActive }) => (
                 <div
-                  className={`mt-12 transition-opacity duration-300 ${
+                  className={`my-12 transition-opacity duration-300 ${
                     isActive ? "opacity-100" : "opacity-50"
                   }`}
                 >
                   <img
-                    className="w-full border rounded-t-lg border-none"
-                    src="./home/carousel-primary/poster-1.png"
+                    className="w-full border rounded-t-xl border-none"
+                    src="./home/carousel-primary/poster-1.jpg"
                     alt=""
                   />
-                  <div className="bg-red-700 rounded-b-lg p-5">
+
+                  <div className="bg-red-700 rounded-b-xl p-4 flex flex-col gap-y-4">
                     <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl ">
                     Besieged: Voices From Delhi-1857
                     </p>
-                    <p className="text-white text-base font-light font-Noto_Sans mt-2">
+                    <p className="text-white text-base font-light font-Noto_Sans">
                     Book (Compiler and Translator)
                     </p>
-                    <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
+                    <div className="w-full text-center flex flex-col xl:flex-row justify-between items-center gap-y-4 xl:gap-x-6">
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
- 1822X' className="w-[8rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
-                      hover:font-medium
-                      transition-all duration-75">
+                        1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
                         Read
-                    </a>
+                      </a>
                       <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
- 1822X' className="w-[8rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
-                      hover:font-medium
-                      transition-all duration-75">
+                        1822X' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-75">
                         Learn More
                       </a>
                     </div>
                   </div>
+
                 </div>
               )}
             </SwiperSlide>      
             <SwiperSlide>
               {({ isActive }) => (
                 <div
-                  className={`mt-12 transition-opacity duration-300 ${
+                  className={`my-12 transition-opacity duration-300 ${
                     isActive ? "opacity-100" : "opacity-50"
                   }`}
                 >
                   <img
-                    className="w-full border rounded-lg border-none "
-                    src="./home/Carousel-ongoing-upcoming/poster-ph.png"
+                    className="w-full border rounded-t-xl border-none"
+                    src="./home/carousel-primary/poster-2.jpg"
                     alt=""
                   />
-                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
-                        Learn More
-                  </button>
-                  {/* <div className="mt-6">
-                    <p className="font-Noto_Sans text-3xl lg:font-bold xl:text-[2.5rem] text-white">
-                    Dastan-E-Amir Hamza
-                    </p>
-                    <p className="text-white opacity-60 text-sm xl:text-[1.5rem] font-light font-Noto_Sans my-6 lg:text-base">
-                    Date: October 15, 2024 | <br /> Location: Habitat Centre, Delhi, <br /> India
-                    </p>
-                    <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
-                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-white bg-primary-red rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
-                        Ticket
-                      </button>
-                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-primary-red border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
-                        Learn More
-                      </button>
-                    </div>
-                  </div> */}
-                </div>
-              )}
-            </SwiperSlide>     
-            <SwiperSlide>
-              {({ isActive }) => (
-                <div
-                  className={`mt-12 transition-opacity duration-300 ${
-                    isActive ? "opacity-100" : "opacity-50"
-                  }`}
-                >
-                  <img
-                    className="w-full border rounded-t-lg border-none"
-                    src="./home/carousel-primary/poster-2.png"
-                    alt=""
-                  />
-                  <div className="bg-red-700 rounded-b-lg p-5">
+
+                  <div className="bg-red-700 rounded-b-xl p-4 flex flex-col gap-y-4">
                     <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl ">
                     A Requiem for Pakistan
                     </p>
-                    <p className="text-white text-base font-light font-Noto_Sans mt-2">
-                    Book (Author)
+                    <p className="text-white text-base font-light font-Noto_Sans">
+                    Author
                     </p>
-                    <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <a href='https://www.amazon.in/Requiem-Pakistan-World-Intizar-Husain/dp/93825794
- 27' className="w-[8rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
-                      hover:font-medium
-                      transition-all duration-75">
+                    <div className="w-full text-center flex flex-col xl:flex-row justify-between items-center gap-y-4 xl:gap-x-6">
+                      <a href=' https://www.amazon.in/Requiem-Pakistan-World-Intizar-Husain/dp/9382579427' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
                         Read
-                    </a>
-                      <a href='https://www.amazon.in/Requiem-Pakistan-World-Intizar-Husain/dp/93825794
- 27' className="w-[8rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
-                      hover:font-medium
-                      transition-all duration-75">
+                      </a>
+                      <a href=' https://www.amazon.in/Requiem-Pakistan-World-Intizar-Husain/dp/9382579427' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-75">
                         Learn More
                       </a>
                     </div>
                   </div>
+
+                </div>
+              )}
+            </SwiperSlide>       
+            <SwiperSlide>
+              {({ isActive }) => (
+                <div
+                  className={`my-12 transition-opacity duration-300 ${
+                    isActive ? "opacity-100" : "opacity-50"
+                  }`}
+                >
+                  <img
+                    className="w-full border rounded-t-xl border-none"
+                    src="./home/carousel-primary/poster-3.jpg"
+                    alt=""
+                  />
+
+                  <div className="bg-red-700 rounded-b-xl p-4 flex flex-col gap-y-4">
+                    <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl ">
+                    दास्तानगोई : Dastangoi
+                    </p>
+                    <p className="text-white text-base font-light font-Noto_Sans">
+                    Book (Writer & Compiler)
+                    </p>
+                    <div className="w-full text-center flex flex-col xl:flex-row justify-between items-center gap-y-4 xl:gap-x-6">
+                      <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
+                        1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
+                        Read
+                      </a>
+                      <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
+                        1822X' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-75">
+                        Learn More
+                      </a>
+                    </div>
+                  </div>
+
                 </div>
               )}
             </SwiperSlide>            
             <SwiperSlide>
               {({ isActive }) => (
                 <div
-                  className={`mt-12 transition-opacity duration-300 ${
+                  className={`my-12 transition-opacity duration-300 ${
                     isActive ? "opacity-100" : "opacity-50"
                   }`}
                 >
                   <img
-                    className="w-full border rounded-t-lg border-none"
-                    src="./home/carousel-primary/poster-3.png"
+                    className="w-full border rounded-t-xl border-none"
+                    src="./home/carousel-primary/poster-4.jpg"
                     alt=""
                   />
-                  <div className="bg-red-700 rounded-b-lg p-5">
+
+                  <div className="bg-red-700 rounded-b-xl p-4 flex flex-col gap-y-4">
                     <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl ">
-                    दास्तानगोई : Dastangoi
+                    दास्तानगोई- 2: Dastangoi- 2
                     </p>
-                    <p className="text-white text-base font-light font-Noto_Sans mt-2">
+                    <p className="text-white text-base font-light font-Noto_Sans">
                     Book (Writer & Compiler)
                     </p>
-                    <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <a href='https://www.amazon.in/Dastangoi-Mahmood-Faaruqui/dp/8126722304' className="w-[8rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[8rem] tracking-tighter hover:bg-primary-red text-primary-red
-                      hover:font-medium
-                      transition-all duration-75">
+                    <div className="w-full text-center flex flex-col xl:flex-row justify-between items-center gap-y-4 xl:gap-x-6">
+                      <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
+                        1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
                         Read
-                    </a>
-                      <a href='https://www.amazon.in/Dastangoi-Mahmood-Faaruqui/dp/8126722304' className="w-[8rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
-                      hover:font-medium
-                      transition-all duration-75">
+                      </a>
+                      <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
+                        1822X' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-75">
                         Learn More
                       </a>
                     </div>
                   </div>
+
                 </div>
               )}
             </SwiperSlide>           
             <SwiperSlide>
               {({ isActive }) => (
                 <div
-                  className={`mt-12 transition-opacity duration-300 ${
+                  className={`my-12 transition-opacity duration-300 ${
                     isActive ? "opacity-100" : "opacity-50"
                   }`}
                 >
                   <img
-                    className="w-full border rounded-t-lg border-none"
-                    src="./home/carousel-primary/poster-4.png"
+                    className="w-full border rounded-t-xl border-none"
+                    src="./home/carousel-primary/poster-5.jpg"
                     alt=""
                   />
-                  <div className="bg-red-700 rounded-b-lg p-5">
-                    <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl ">
-                    दास्तानगोई- 2: Dastangoi- 2 (Short Stories)
-                    </p>
-                    <p className="text-white text-base font-light font-Noto_Sans mt-2">
-                    Book (Writer & Compiler)
-                    </p>
-                    <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <a href='https://www.amazon.in/Dastangoi-2-Mahmood-Farooqui/dp/9388753488' className="w-[8rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
-                      hover:font-medium
-                      transition-all duration-75">
-                        Read
-                    </a>
-                      <a href='https://www.amazon.in/Dastangoi-2-Mahmood-Farooqui/dp/9388753488' className="w-[8rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
-                      hover:font-medium
-                      transition-all duration-75">
-                        Learn More
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              )}
-            </SwiperSlide>          
-            <SwiperSlide>
-              {({ isActive }) => (
-                <div
-                  className={`mt-12 transition-opacity duration-300 ${
-                    isActive ? "opacity-100" : "opacity-50"
-                  }`}
-                >
-                  <img
-                    className="w-full border rounded-t-lg border-none"
-                    src="./home/carousel-primary/poster-5.png"
-                    alt=""
-                  />
-                  <div className="bg-red-700 rounded-b-lg p-5">
+
+                  <div className="bg-red-700 rounded-b-xl p-4 flex flex-col gap-y-4">
                     <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl ">
                     Memoirs: Habib Tanvir
                     </p>
-                    <p className="text-white text-base font-light font-Noto_Sans mt-2">
+                    <p className="text-white text-base font-light font-Noto_Sans">
                     Translator
                     </p>
-                    <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <a href='https://www.amazon.in/Memoirs-Habib-Tanvir/dp/0143422758' className="w-[8rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
-                      hover:font-medium
-                      transition-all duration-75">
+                    <div className="w-full text-center flex flex-col xl:flex-row justify-between items-center gap-y-4 xl:gap-x-6">
+                      <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
+                        1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
                         Read
-                    </a>
-                      <a href='https://www.amazon.in/Memoirs-Habib-Tanvir/dp/0143422758' className="w-[8rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
-                      hover:font-medium
-                      transition-all duration-75">
+                      </a>
+                      <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
+                        1822X' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-75">
                         Learn More
                       </a>
                     </div>
                   </div>
+
                 </div>
               )}
-            </SwiperSlide>          
+            </SwiperSlide>         
             <SwiperSlide>
               {({ isActive }) => (
                 <div
-                  className={`mt-12 transition-opacity duration-300 ${
+                  className={`my-12 transition-opacity duration-300 ${
                     isActive ? "opacity-100" : "opacity-50"
                   }`}
                 >
                   <img
-                    className="w-full border rounded-t-lg border-none"
-                    src="./home/carousel-primary/poster-6.png"
+                    className="w-full border rounded-t-xl border-none"
+                    src="./home/carousel-primary/poster-6.jpg"
                     alt=""
                   />
-                  <div className="bg-red-700 rounded-b-lg p-5">
+
+                  <div className="bg-red-700 rounded-b-xl p-4 flex flex-col gap-y-4">
                     <p className="font-Noto_Sans text-3xl text-white font-bold md:text-xl xl:text-2xl ">
                     The Last Mughal
                     </p>
-                    <p className="text-white text-base font-light font-Noto_Sans mt-2">
+                    <p className="text-white text-base font-light font-Noto_Sans">
                     Researcher
                     </p>
-                    <div className="w-full text-center flex flex-wrap justify-between items-center mt-4 gap-x-5 gap-y-2">
-                      <a href='#' className="w-[8rem] bxl:w-[12rem] bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red
-                      hover:font-medium
-                      transition-all duration-75">
+                    <div className="w-full text-center flex flex-col xl:flex-row justify-between items-center gap-y-4 xl:gap-x-6">
+                      <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
+                        1822X' className="w-full bg-white hover:text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-primary-red text-primary-red hover:font-medium transition-all duration-75">
                         Read
-                    </a>
-                      <a href='#' className="w-[8rem] bxl:w-[12rem] text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red
-                      hover:font-medium
-                      transition-all duration-75">
+                      </a>
+                      <a href='https://www.amazon.in/Besieged-Voices-Delhi-Mahmood-Farooqui/dp/01434
+                        1822X' className="w-full text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-white hover:text-primary-red hover:font-medium transition-all duration-75">
                         Learn More
                       </a>
                     </div>
                   </div>
+
                 </div>
               )}
-            </SwiperSlide>         
-            
+            </SwiperSlide>                         
             <p className='opacity-0'>.</p>
           </Swiper>
       </section>
