@@ -466,7 +466,7 @@ const swiperCustomStyles: CustomCSSProperties = {
 
       <section className="bg-[#151515] w-full pt-16 px-6 lg:px-20">
           <div className='w-full '>
-            <div className="uppercase text-white leading-[2.2rem] lg:leading-[4rem] font-Noto_Sans font-bold text-[2rem] mb-[4rem] xl:text-[64px] xl:font-extrabold">
+            <div className="uppercase text-white leading-[2.2rem] lg:leading-[4rem] font-Noto_Sans font-bold text-[2rem] xl:text-[64px] xl:font-extrabold">
               <motion.h4
               initial={{ opacity: 0, y: 50 }}  
               whileInView={{ opacity: 1, y: 0 }}  
@@ -685,13 +685,12 @@ const swiperCustomStyles: CustomCSSProperties = {
               )}
             </SwiperSlide>
             <p className='opacity-0'>.</p>
-            <p className='opacity-0'>.</p>
           </Swiper>
       </section>
 
       {/* // SECTION 6 */}
 
-      <section className="bg-[#151515] w-full pt-12 px-6 lg:px-20">
+      <section className="bg-[#151515] w-full pt-16 px-6 lg:px-20">
           <motion.h4 className="uppercase text-white font-Noto_Sans font-bold text-[2rem] lg:text-[5rem] mb-6"
            initial={{ opacity: 0, y: 50 }}  
            whileInView={{ opacity: 1, y: 0 }}  
@@ -783,7 +782,41 @@ const swiperCustomStyles: CustomCSSProperties = {
                   </div>
                 </div>
               )}
-            </SwiperSlide>           
+            </SwiperSlide>      
+            <SwiperSlide>
+              {({ isActive }) => (
+                <div
+                  className={`mt-12 transition-opacity duration-300 ${
+                    isActive ? "opacity-100" : "opacity-50"
+                  }`}
+                >
+                  <img
+                    className="w-full border rounded-lg border-none "
+                    src="./home/Carousel-ongoing-upcoming/poster-ph.png"
+                    alt=""
+                  />
+                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                        Learn More
+                  </button>
+                  {/* <div className="mt-6">
+                    <p className="font-Noto_Sans text-3xl lg:font-bold xl:text-[2.5rem] text-white">
+                    Dastan-E-Amir Hamza
+                    </p>
+                    <p className="text-white opacity-60 text-sm xl:text-[1.5rem] font-light font-Noto_Sans my-6 lg:text-base">
+                    Date: October 15, 2024 | <br /> Location: Habitat Centre, Delhi, <br /> India
+                    </p>
+                    <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-white bg-primary-red rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                        Ticket
+                      </button>
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-primary-red border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-75 lg:text-base">
+                        Learn More
+                      </button>
+                    </div>
+                  </div> */}
+                </div>
+              )}
+            </SwiperSlide>     
             <SwiperSlide>
               {({ isActive }) => (
                 <div

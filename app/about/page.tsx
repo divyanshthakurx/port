@@ -65,13 +65,13 @@ const About = () => {
                 <img className="w-[50%] absolute top-[0] right-0 min-[950px]:w-[24vw]" src="/about/Barwai Photos 040 4.png" alt=""/>
                 <img className="w-[85vw] absolute top-[65vw] left-[8vw] z-10 min-[950px]:top-[18vw] min-[950px]:left-[50vw] min-[950px]:translate-x-[-50%] min-[950px]:w-[45vw]" src="/about/mf11.jpg" alt=""/>
                 <img className="w-[67vw] absolute top-[160vw] translate-y-[-100%] left-0 min-[950px]:translate-y-[0%] min-[950px]:top-[8vw] min-[950px]:left-[5.5vw] min-[950px]:w-[30vw]" src="/about/Barwai Photos 040 3.png" alt=""/>
-                <p className="absolute  blur-text uppercase font-Noto_Sans text-[7vw] text-white font-medium leading-snug top-[133vw] right-[7vw] min-[950px]:top-[36.5vw] min-[950px]:left-[9vw] min-[950px]:text-[40px] min-[950px]:leading-tight min-[950px]:font-medium">Writer <br/> Performer <br/> Director</p>
-                <p className="px-8  blur-text mb-[-5vw] font-Noto_Sans font-light md:font-normal md:text-2xl min-[550px]:text-xl min-[750px]:mb-0 min-[950px]:absolute min-[950px]:right-[2vw] min-[950px]:w-[36vw] min-[950px]:text-[1.5vw] min-[950px]:bottom-[1.5vw] min-[950px]:z-10 min-[950px]:mb-0">Mahmood Farooqui is an acclaimed Indian writer, performer, and director, celebrated for his expertise in Dastangoi, a traditional form of Urdu storytelling.</p>
+                <p className="absolute blur-text uppercase font-Noto_Sans text-[7vw] text-white font-medium leading-snug top-[133vw] right-[7vw] min-[950px]:top-[36.5vw] min-[950px]:left-[9vw] min-[950px]:text-[40px] min-[950px]:leading-tight min-[950px]:font-medium">Writer <br/> Performer <br/> Director</p>
+                <p className="px-6 blur-text mb-[-5vw] font-Noto_Sans font-light md:font-normal md:text-2xl min-[550px]:text-xl min-[750px]:mb-0 min-[950px]:absolute min-[950px]:right-[2vw] min-[950px]:w-[36vw] min-[950px]:text-[1.5vw] min-[950px]:bottom-[1.5vw] min-[950px]:z-10 min-[950px]:mb-0">Mahmood Farooqui is an acclaimed Indian writer, performer, and director, celebrated for his expertise in Dastangoi, a traditional form of Urdu storytelling.</p>
             </div>
         </section>
 
         <section className="pb-16 pt-[4rem] md:pt-0 lg:pb-0 xl:mb-0 bg-[#101010] text-white">
-            <div className="px-[8.5vw] xl:px-0">
+            <div className="px-6 xl:px-0">
             <div className="xl:grid grid-cols-[35%,65%] gridrows-3 xl:px-[8vw] xl:pt-[10vw] xl:gap-x-[5vw]">
                 <motion.p className="text-5xl font-normal pt-[10vw] mb-6 font-Noto_Sans sm:text-6xl xl:order-2  xl:text-7xl xl:w-[32vw] xl:leading-none xl:pt-[0vw] xl:mb-0"
                 initial={{ opacity: 0, y: 50 }} 
@@ -136,7 +136,7 @@ const About = () => {
         </section>
 
         <section className="relative pt-14 bg-gradient-to-r from-[#101010] from-20% to-[#AA1F18] text-white pb-20 lg:px-[8vw]">
-            <motion.h2 className="px-10 text-5xl font-Noto_Sans font-bold mb-[5vw] sm:mb-0 lg:px-0 xl:text-[65px] xl:font-normal xl:tracking-tight xl:w-[80%]"
+            <motion.h2 className="px-6 text-5xl font-Noto_Sans font-bold mb-[5vw] sm:mb-0 lg:px-0 xl:text-[65px] xl:font-normal xl:tracking-tight xl:w-[80%]"
             initial={{ opacity: 0, y: 50 }}  
             whileInView={{ opacity: 1, y: 0 }}  
             transition={{ duration: 1.25, ease: 'easeOut' }}  
@@ -144,7 +144,7 @@ const About = () => {
             >IN 2005  HE BEGAN REVIVING THE FORGOTTEN <span className="text-red-700 xl:text-white">ART</span> OF DASTANGOI
             </motion.h2>
             <div className="lg:grid lg:grid-cols-[2fr_1fr] lg:mt-[5vw]">
-                <div className="pr-10 lg:order-2 lg:pr-0">
+                <div className="pr-6 lg:order-2 lg:pr-0">
                     <div className="w-full flex justify-end mb-5">
                     <img src="/about/shamsur-rahman-faruqi 1.png" alt="" className="md:w-[18%] lg:w-[15vw]"/>
                     </div>
@@ -158,7 +158,7 @@ const About = () => {
                 </div>
                 <div className="lg:order-1">
                     <img src="/about/mf5 2.jpg" alt="" className="w-[100%] mb-[5vw] xl:w-[54vw]"/>
-                    <motion.p className="px-10 leading-tight font-Noto_Sans sm:text-xl lg:px-0 xl:text-2xl bxl:text-3xl"
+                    <motion.p className="px-6 leading-tight font-Noto_Sans sm:text-xl lg:px-0 xl:text-2xl bxl:text-3xl"
                     initial={{ opacity: 0, y: 50 }} 
                     whileInView={{ opacity: 1, y: 0 }}  
                     transition={{ duration: 2, ease: 'easeOut' }}  
@@ -170,7 +170,7 @@ const About = () => {
         </section>
 
         <section className="bg-[#101010]">
-            <div className="py-[4rem] px-[2rem]">  
+            <div className="py-[4rem] px-6">  
                 <div className="bxl:px-[6rem]">
                     <motion.h5 className="uppercase mb-16 text-white font-Noto_Sans font-bold xl:font-normal xl:text-[72px] xl:w-[60rem] xl:leading-[5rem] text-[3rem] leading-[3rem]"
                     initial={{ opacity: 0, y: 50 }}  
@@ -287,7 +287,7 @@ const About = () => {
         <section className="bg-[#D4D4D4]">
             <div className="py-[64px] sm:py-0 sm:pt-[64px] ">
                 <div className="flex flex-col justify-center items-center gap-12 lg:gap-0 bxl:gap-4 lg:relative md:px-[4rem] lg:px-[9rem]">
-                    <motion.div className="font-Noto_Sans w-full flex flex-col md:flex-row md:justify-between gap-6 px-[2rem]"
+                    <motion.div className="font-Noto_Sans w-full flex flex-col md:flex-row md:justify-between gap-6 px-6"
                     initial={{ opacity: 0, y: 50 }}  
                     whileInView={{ opacity: 1, y: 0 }}  
                     transition={{ duration: 1.25, ease: 'easeOut' }}  
@@ -296,7 +296,7 @@ const About = () => {
                         <div className="md:text-3xl">In 2002</div>
                         <h6 className="uppercase text-5xl lg:text-[72px] md:w-[40rem] lg:w-[54rem]">married to acclaimed writer & director <span className="text-primary-red">anusha rizvi</span></h6>
                     </motion.div>
-                    <div className="self-start flex flex-col gap-[4rem] justify-center items-center xl:mt-[6rem] z-20 px-[2rem] ">
+                    <div className="self-start flex flex-col gap-[4rem] justify-center items-center xl:mt-[6rem] z-20 px-6">
                         <img className="w-[22rem] lg:w-[30vw] bxl:w-[33vw] h-auto shadow-xl" src={"/about/Anusha-Rizvi-and-Mehmood-Farooqui-with-son.png"}  alt={"picture of Anusha Rizvi and Mehmood Farooqui"} />
                         <motion.p className="font-Noto_Sans  xl:leading-10 font-medium lg:font-normal  lg:text-[32px] place-self-start"
                         initial={{ opacity: 0, y: 50 }}  // Start with opacity 0 and move the element 50px down
@@ -310,9 +310,9 @@ const About = () => {
                     <div className="lg:absolute lg:top-[18rem] lg:right-0">
                         <img className="w-full h-auto sm:w-[30rem] lg:w-[50vw] bxl:w-[56vw] md:self-center" src={"/about/mehmood-farooqui-with-son.png"}  alt={"picture of Anusha Rizvi and Mehmood Farooqui"}  />
                     </div>
-                    <div className="font-Noto_Sans w-full flex flex-col md:flex-row-reverse justify-center lg:justify-between items-center gap-12 lg:gap-0">
-                        <img className="w-[22rem] lg:w-[34vw] h-auto" src={"/about/Anusha-Rizvi-and-Mehmood-Farooqui.jpg"}  alt={"picture of Anusha Rizvi and Mehmood Farooqui"} />
-                        <motion.p className="font-Noto_Sans md:self-end pb-[4rem] font-light lg:font-normal lg:text-2xl w-[22rem] md:w-[33rem]"
+                    <div className="font-Noto_Sans px-6 w-full flex flex-col md:flex-row-reverse justify-center lg:justify-between items-center gap-12 lg:gap-0">
+                        <img className="w-[23.5rem] lg:w-[34vw] h-auto" src={"/about/Anusha-Rizvi-and-Mehmood-Farooqui.jpg"}  alt={"picture of Anusha Rizvi and Mehmood Farooqui"} />
+                        <motion.p className="font-Noto_Sans md:self-end pb-[4rem] font-light lg:font-normal lg:text-2xl w-[23.5rem] md:w-[33rem]"
                         initial={{ opacity: 0, y: 50 }}  // Start with opacity 0 and move the element 50px down
                         whileInView={{ opacity: 1, y: 0 }}  // Animate to full opacity and original position
                         transition={{ duration: 2, ease: 'easeOut' }}  // Duration and easing of the animation
@@ -328,7 +328,7 @@ const About = () => {
         <section className="bg-[#101010]">
             <div >
                 <div className="w-full flex flex-col md:flex-row-reverse justify-center md:justify-between items-center">
-                    <div className="mb-[1rem] md:mb-0 px-8 md:px-0 font-Noto_Sans  md:pr-[7%] bxl:pr-[13%]">
+                    <div className="mb-[1rem] md:mb-0 px-6 md:px-0 font-Noto_Sans md:pr-[7%] bxl:pr-[13%]">
                         <motion.h6 className="uppercase text-primary-red font-extrabold text-[72px]"
                         initial={{ opacity: 0, y: 50 }}  // Start with opacity 0 and move the element 50px down
                         whileInView={{ opacity: 1, y: 0 }}  // Animate to full opacity and original position
@@ -338,7 +338,7 @@ const About = () => {
                         </motion.h6>
                         <motion.p className="text-white font-light leading-[22px] mt-4 xl:text-2xl xl:w-[33rem]"
                          initial={{ opacity: 0, y: 50 }} 
-                         whileInView={{ opacity: 1, y: 0 }}  
+                         whileInView={{ opacity: 1, y: 0 }} 
                          transition={{ duration: 2, ease: 'easeOut' }}  
                          viewport={{ once: true, amount: 0.25 }}  
                         >
