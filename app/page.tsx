@@ -1,4 +1,3 @@
-// import Image from "next/image";
 "use client";
 import Image from 'next/image';
 import { motion } from 'framer-motion';
@@ -7,6 +6,8 @@ import { Pagination, A11y, EffectCoverflow } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+
+
 
 type CustomCSSProperties = React.CSSProperties & {
   [key: `--${string}`]: string | number;
@@ -23,10 +24,18 @@ const swiperCustomStyles: CustomCSSProperties = {
 
   export default function Home() {
     
-
   return (
 
-    <div>
+    <div className='relative'>
+
+      <button onClick={() => (window.location.href = "/about")} className='flex justify-center items-center z-30 fixed bottom-12 right-7 md:bottom-20 md:right-20 py-2 px-4 md:py-3 md:px-6 text-white border border-gray-300 text-base md:text-lg font-Noto_Sans font-semibold rounded-3xl bg-[#AA1F18] hover:bg-[#77231e] transition-all duration-300'>know more about me&ensp;
+        <motion.span
+         animate={{ x: [0, 5, 0] }} 
+         transition={{ repeat: Infinity, duration: 1 }} 
+        >
+          <img className='animate' src="./arrow.svg" alt="arrow icon" />
+        </motion.span>
+      </button>
 
       {/* SECTION 1 */}
 
@@ -41,7 +50,7 @@ const swiperCustomStyles: CustomCSSProperties = {
             viewport={{ once: true, amount: 0.25 }} 
             >dastango</motion.h1>
 
-            <div className="w-full lg:-mt-[16rem] inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_8rem,_black_calc(100%-12.5rem),transparent_100%)]">
+            <div className="w-full lg:-mt-[16rem] inline-flex flex-nowrap overflow-hidden [mask-image:_linear-gradient(to_right,transparent_0,_black_3rem,_black_calc(100%-7rem),transparent_100%)]">
 
                 <ul className="flex items-center justify-center md:justify-start [&_li]:mx-8 [&_img]:max-w-none animate-scroll">
                   <li>         
@@ -109,7 +118,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                   </ul>   
                 </div>
               </div>
-              <div className="w-full md:w-[32vw] text-white -mt-3 self-start z-30">
+              <div className="w-full md:w-[32vw] text-white -mt-3 self-start z-20">
                 <motion.p className="font-Noto_Sans font-light md:w-[32vw] lg:pl-0 lg:font-medium min-[1300px]:text-[22px] bxl:text-[1.5vw] "
                 initial={{ opacity: 0, y: 50 }}  
                 whileInView={{ opacity: 1, y: 0 }}  
@@ -189,12 +198,12 @@ const swiperCustomStyles: CustomCSSProperties = {
                     <SwiperSlide>
                       {({ isActive }) => (
                         <div
-                          className={`mb-12 transition-opacity duration-300 ${
+                          className={`mb-12 xxxl:mb-6 transition-opacity duration-300 ${
                             isActive ? "opacity-100" : "opacity-50"
                           }`}
                         >
                           <img
-                            className="w-full border rounded-t-xl border-none"
+                            className="w-full xxxl:h-[36rem] border rounded-t-xl border-none"
                             src="./home/dastangoi/poster-1.jpg"
                             alt=""
                           />
@@ -226,13 +235,13 @@ const swiperCustomStyles: CustomCSSProperties = {
                     <SwiperSlide>
                       {({ isActive }) => (
                         <div
-                          className={`mb-12 transition-opacity duration-300 ${
+                          className={`mb-12 xxxl:mb-6 transition-opacity duration-300 ${
                             isActive ? "opacity-100" : "opacity-50"
                           }`}
                         >
                           <img
-                            className="w-full border rounded-t-xl border-none"
-                            src="./home/dastangoi/poster-1.jpg"
+                            className="w-full xxxl:h-[36rem] border rounded-t-xl border-none"
+                            src="./home/dastangoi/poster-2.jpg"
                             alt=""
                           />
 
@@ -263,13 +272,13 @@ const swiperCustomStyles: CustomCSSProperties = {
                     <SwiperSlide>
                       {({ isActive }) => (
                         <div
-                          className={`mb-12 transition-opacity duration-300 ${
+                          className={`mb-12 xxxl:mb-6 transition-opacity duration-300 ${
                             isActive ? "opacity-100" : "opacity-50"
                           }`}
                         >
                           <img
-                            className="w-full border rounded-t-xl border-none"
-                            src="./home/dastangoi/poster-1.jpg"
+                            className="w-full xxxl:h-[36rem] border rounded-t-xl border-none"
+                            src="./home/dastangoi/poster-3.jpg"
                             alt=""
                           />
 
@@ -300,13 +309,13 @@ const swiperCustomStyles: CustomCSSProperties = {
                     <SwiperSlide>
                       {({ isActive }) => (
                         <div
-                          className={`mb-12 transition-opacity duration-300 ${
+                          className={`mb-12 xxxl:mb-6 transition-opacity duration-300 ${
                             isActive ? "opacity-100" : "opacity-50"
                           }`}
                         >
                           <img
-                            className="w-full border rounded-t-xl border-none"
-                            src="./home/dastangoi/poster-1.jpg"
+                            className="w-full xxxl:h-[36rem] border rounded-t-xl border-none"
+                            src="./home/dastangoi/poster-4.jpg"
                             alt=""
                           />
 
@@ -334,44 +343,8 @@ const swiperCustomStyles: CustomCSSProperties = {
                         </div>
                       )}
                     </SwiperSlide>
-                    <SwiperSlide>
-                      {({ isActive }) => (
-                        <div
-                          className={`mb-12 transition-opacity duration-300 ${
-                            isActive ? "opacity-100" : "opacity-50"
-                          }`}
-                        >
-                          <img
-                            className="w-full border rounded-t-xl border-none"
-                            src="./home/dastangoi/poster-1.jpg"
-                            alt=""
-                          />
-
-                          <div className='rounded-b-xl p-4 flex flex-col gap-y-4 border border-white'>
-                            <p className="font-Noto_Sans text-3xl text-white font-bold md:text-2xl xl:text-3xl">
-                            Dastan-e-Karn az Mahabharat
-                            </p>
-                            {/* <p className="text-white text-md font-light font-Noto_Sans md:text-[15px] xl:text-lg leading-tight">
-                            is a passionate retelling of the life of Karna, a prominent character from the Indian epic Mahabharata combining a great variety of sources.
-                            </p> */}
-                            <div className="w-full text-center flex justify-between items-center gap-y-4 gap-x-4 xl:gap-x-6">
-                              <button className="w-full text-center bg-white  border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[16px] md:min-w-[6rem] tracking-tighter hover:bg-gray-300 text-primary-red
-                              hover:font-medium
-                              transition-all duration-700">
-                                Show
-                              </button>
-                              <button className="w-full text-center text-white border rounded-md font-Noto_Sans font-bold py-2 text-md xl:text-lg md:text-[15px] md:min-w-[6rem] tracking-tighter hover:bg-[#77231e]
-                              hover:font-medium
-                              transition-all duration-700">
-                                Learn More
-                              </button>
-                            </div>
-                          </div>
-                          
-                        </div>
-                      )}
-                    </SwiperSlide>
-                    <p className='opacity-0'>.</p>
+              
+                    <p className='xxxl:mt-3 opacity-0'>.</p>
           
                   </Swiper>
                 </div>
@@ -420,6 +393,102 @@ const swiperCustomStyles: CustomCSSProperties = {
           </div>
         </div>
       </section>
+
+
+      <section className="bg-primary-red w-full h-auto">
+        <div className="py-[4rem] px-6 lg:px-20">
+          
+          <motion.h3 className="uppercase text-white font-Noto_Sans font-bold text-[2rem] lg:text-[5rem] mb-6"
+            initial={{ opacity: 0, y: 50 }}  
+            whileInView={{ opacity: 1, y: 0 }}  
+            transition={{ duration: 2, ease: 'easeOut' }}  
+            viewport={{ once: true, amount: 0.25 }}
+            >Gallery
+          </motion.h3>
+          <div className='relative overflow-hidden'>
+            <div className='absolute bottom-0 left-1/2 transform -translate-x-1/2 flex justify-center items-end z-20 w-full h-[20rem] rounded-lg bg-gradient-to-b from-transparent via-[#151515b6] to-[#151515]'>
+              <motion.button onClick={() => (window.location.href = "/gallery")} className='py-2 px-4 md:py-3 md:px-6 text-white text-base md:text-lg font-Noto_Sans font-semibold rounded-3xl border border-gray-300 bg-[#AA1F18] hover:bg-[#77231e] transition-all duration-300 mb-10'
+              initial={{ opacity: 0, y: 50 }}  
+              whileInView={{ opacity: 1, y: 0 }}  
+              transition={{ duration: 0.1, ease: 'easeOut' }}  
+              viewport={{ once: true, amount: 0.25 }}
+              >Take me to the Gallery 
+              </motion.button>
+            </div>
+            <div className="grid grid-cols-2 md:grid-cols-4 justify-items-center content-center gap-4 relative rounded-lg">
+            <div className="w-full grid gap-4 place-self-end md:place-self-center">
+              <div className="w-full">
+                <img
+                  className="w-full h-auto max-w-full rounded-lg"
+                  src="./home/gallery/gallery-img-1.png"
+                  alt=""
+                />
+              </div>
+              <div className="w-full">
+                <img
+                  className="w-full h-auto max-w-full rounded-lg"
+                  src="./home/gallery/gallery-img-3.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div className="w-full grid gap-4 place-self-start md:place-self-center">
+              <div className="w-full">
+                <img
+                  className="w-full h-auto max-w-full rounded-lg"
+                  src="./home/gallery/gallery-img-2.png"
+                  alt=""
+                />
+              </div>
+              <div className="w-full">
+                <img
+                  className="w-full h-auto max-w-full rounded-lg"
+                  src="./home/gallery/gallery-img-4.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div className="w-full grid gap-4 place-self-end md:place-self-center max-md:hidden">
+              <div className="w-full">
+                <img
+                  className="w-full h-auto max-w-full rounded-lg"
+                  src="./home/gallery/gallery-img-5.png"
+                  alt=""
+                />
+              </div>
+              <div className="w-full">
+                <img
+                  className="w-full h-auto max-w-full rounded-lg"
+                  src="./home/gallery/gallery-img-6.png"
+                  alt=""
+                />
+              </div>
+            </div>
+
+            <div className="w-full grid gap-4 place-self-start md:place-self-center max-md:hidden">
+              <div className="w-full">
+                <img
+                  className="w-full h-auto max-w-full rounded-lg"
+                  src="./home/gallery/gallery-img-7.png"
+                  alt=""
+                />
+              </div>
+              <div className="w-full">
+                <img
+                  className="w-full h-auto max-w-full rounded-lg"
+                  src="./home/gallery/gallery-img-8.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          
+            </div>  
+          </div>
+        </div>
+      </section>
+
 
       {/* // SECTION 5 */}
 
@@ -470,7 +539,7 @@ const swiperCustomStyles: CustomCSSProperties = {
               },
             }}
           >
-           \
+           
             <SwiperSlide>
               {({ isActive }) => (
                 <div
@@ -480,7 +549,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                 >
                   <img
                     className="w-full border rounded-lg border-none "
-                    src="./home/Carousel-ongoing-upcoming/poster-ph.png"
+                    src="./home/Carousel-ongoing-upcoming/poster-1.jpg"
                     alt=""
                   />
                   <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base ">
@@ -515,7 +584,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                 >
                   <img
                     className="w-full border rounded-lg border-none "
-                    src="./home/Carousel-ongoing-upcoming/poster-ph.png"
+                    src="./home/Carousel-ongoing-upcoming/poster-2.jpg"
                     alt=""
                   />
                   <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
@@ -550,7 +619,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                 >
                   <img
                     className="w-full border rounded-lg border-none "
-                    src="./home/Carousel-ongoing-upcoming/poster-ph.png"
+                    src="./home/Carousel-ongoing-upcoming/poster-3.jpg"
                     alt=""
                   />
                   <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
@@ -584,7 +653,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                 >
                   <img
                     className="w-full border rounded-lg border-none "
-                    src="./home/Carousel-ongoing-upcoming/poster-ph.png"
+                    src="./home/Carousel-ongoing-upcoming/poster-4.jpg"
                     alt=""
                   />
                   <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
@@ -618,7 +687,7 @@ const swiperCustomStyles: CustomCSSProperties = {
                 >
                   <img
                     className="w-full border rounded-lg border-none "
-                    src="./home/Carousel-ongoing-upcoming/poster-ph.png"
+                    src="./home/Carousel-ongoing-upcoming/poster-5.jpg"
                     alt=""
                   />
                   <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
@@ -643,6 +712,108 @@ const swiperCustomStyles: CustomCSSProperties = {
                 </div>
               )}
             </SwiperSlide>
+            <SwiperSlide>
+              {({ isActive }) => (
+                <div
+                  className={`mt-12 transition-opacity duration-300 ${
+                    isActive ? "opacity-100" : "opacity-50"
+                  }`}
+                >
+                  <img
+                    className="w-full border rounded-lg border-none "
+                    src="./home/Carousel-ongoing-upcoming/poster-6.jpg"
+                    alt=""
+                  />
+                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
+                        Learn More
+                  </button>
+                  {/* <div className="mt-6">
+                    <p className="font-Noto_Sans text-3xl lg:font-bold xl:text-[2.5rem] text-white">
+                    Dastan Amar Ayyar aur Mahtab Jadu ki
+                    </p>
+                    <p className="text-white opacity-60 text-sm xl:text-[1.5rem] font-light font-Noto_Sans my-6 lg:text-base">
+                    Date: October 15, 2024 | <br/> Location: Habitat Centre, Delhi, <br/> India
+                    </p>
+                    <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-white bg-primary-red rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
+                        Ticket
+                      </button>
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-primary-red border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
+                        Learn More
+                      </button>
+                    </div>
+                  </div> */}
+                </div>
+              )}
+            </SwiperSlide>  
+            <SwiperSlide>
+              {({ isActive }) => (
+                <div
+                  className={`mt-12 transition-opacity duration-300 ${
+                    isActive ? "opacity-100" : "opacity-50"
+                  }`}
+                >
+                  <img
+                    className="w-full border rounded-lg border-none "
+                    src="./home/Carousel-ongoing-upcoming/poster-7.jpg"
+                    alt=""
+                  />
+                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
+                        Learn More
+                  </button>
+                  {/* <div className="mt-6">
+                    <p className="font-Noto_Sans text-3xl lg:font-bold xl:text-[2.5rem] text-white">
+                    Dastan Amar Ayyar aur Mahtab Jadu ki
+                    </p>
+                    <p className="text-white opacity-60 text-sm xl:text-[1.5rem] font-light font-Noto_Sans my-6 lg:text-base">
+                    Date: October 15, 2024 | <br/> Location: Habitat Centre, Delhi, <br/> India
+                    </p>
+                    <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-white bg-primary-red rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
+                        Ticket
+                      </button>
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-primary-red border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
+                        Learn More
+                      </button>
+                    </div>
+                  </div> */}
+                </div>
+              )}
+            </SwiperSlide>  
+            <SwiperSlide>
+              {({ isActive }) => (
+                <div
+                  className={`mt-12 transition-opacity duration-300 ${
+                    isActive ? "opacity-100" : "opacity-50"
+                  }`}
+                >
+                  <img
+                    className="w-full border rounded-lg border-none "
+                    src="./home/Carousel-ongoing-upcoming/poster-8.jpg"
+                    alt=""
+                  />
+                  <button className="w-full py-4 text-primary-red mt-10  border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
+                        Learn More
+                  </button>
+                  {/* <div className="mt-6">
+                    <p className="font-Noto_Sans text-3xl lg:font-bold xl:text-[2.5rem] text-white">
+                    Dastan Amar Ayyar aur Mahtab Jadu ki
+                    </p>
+                    <p className="text-white opacity-60 text-sm xl:text-[1.5rem] font-light font-Noto_Sans my-6 lg:text-base">
+                    Date: October 15, 2024 | <br/> Location: Habitat Centre, Delhi, <br/> India
+                    </p>
+                    <div className="w-full flex flex-wrap justify-between items-center gap-x-5 gap-y-2">
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-white bg-primary-red rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
+                        Ticket
+                      </button>
+                      <button className="w-[10rem] bxl:w-[14rem] py-4 text-primary-red border-primary-red border rounded-xl font-Noto_Sans font-medium text-sm bxl:text-[1.5rem] hover:bg-primary-red hover:text-black hover:font-medium transition-all duration-700 lg:text-base">
+                        Learn More
+                      </button>
+                    </div>
+                  </div> */}
+                </div>
+              )}
+            </SwiperSlide>  
             <p className='opacity-0'>.</p>
           </Swiper>
       </section>
